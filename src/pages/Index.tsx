@@ -170,8 +170,8 @@ const Index = () => {
               </div>
               <Card className="p-6 hover:shadow-lg transition-all duration-300">
                 <h3 className="text-2xl font-bold mb-2">Workaround</h3>
-                <p className="text-muted-foreground mb-3">פלטפורמה לחיבור ארגונים ואנשים</p>
-                <p className="text-foreground">הדרכת צוותי גיוס ומנהלים - גיוס חכם, מדויק ועם משמעות</p>
+                <p className="text-muted-foreground mb-3">ייעוץ והדרכה לצוותי גיוס ומנהלים</p>
+                <p className="text-foreground">העברת ידע, פיתוח תהליכים והובלת שינוי אסטרטגי בארגונים</p>
               </Card>
             </div>
           </div>
