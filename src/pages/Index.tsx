@@ -178,7 +178,7 @@ const Index = () => {
 
           <div className="text-center mt-12 p-8 bg-gradient-to-l from-secondary/10 to-accent/10 rounded-2xl">
             <p className="text-2xl md:text-3xl font-light italic text-foreground leading-relaxed">
-              "גיוס הוא הדרך שבה ארגון נושם, גדל ומגשים את עצמו"
+              "הצלחת הארגון נקבעת באנשים שבוחרים להצטרף אליו – וזה מתחיל בגיוס נכון"
             </p>
           </div>
         </div>
