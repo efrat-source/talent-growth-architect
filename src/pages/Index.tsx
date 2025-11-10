@@ -368,6 +368,238 @@ const Index = () => {
         </div>
       </section>
 
+      {/* Courses Section */}
+      <section className="py-20 px-6 bg-background">
+        <div className="container mx-auto max-w-6xl">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl md:text-5xl font-bold mb-6">קורסים</h2>
+            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+              קורסים מקיפים המשלבים ידע תיאורטי עם תרגול מעשי לפיתוח מקצועי מתמשך
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-2 gap-8">
+            {/* Course 1 */}
+            <Card className="p-8 hover:shadow-xl transition-all duration-300 border-2 hover:border-accent/30">
+              <div className="flex items-start gap-4 mb-6">
+                <div className="p-3 rounded-lg bg-accent/10">
+                  <GraduationCap className="w-8 h-8 text-accent" />
+                </div>
+                <div className="flex-1">
+                  <h3 className="text-2xl font-bold mb-2">קורס יסודות הגיוס המקצועי</h3>
+                  <div className="flex items-center gap-4 text-sm text-muted-foreground mb-4">
+                    <span className="flex items-center gap-1">
+                      <Target className="w-4 h-4" />
+                      8 מפגשים
+                    </span>
+                    <span>16 שעות אקדמיות</span>
+                  </div>
+                </div>
+              </div>
+              
+              <p className="text-muted-foreground mb-6 leading-relaxed">
+                קורס מקיף המיועד למגייסים חדשים או לאנשי HR שרוצים לשדרג את הידע בתחום. 
+                הקורס משלב תיאוריה מתקדמת עם תרגול מעשי ומקרי מבחן אמיתיים.
+              </p>
+
+              <div className="border-t pt-6">
+                <h4 className="font-bold mb-3 flex items-center gap-2">
+                  <CheckCircle2 className="w-5 h-5 text-accent" />
+                  מה לומדים בקורס:
+                </h4>
+                <ul className="space-y-2 text-foreground mb-6">
+                  <li className="flex items-start gap-2">
+                    <span className="text-accent mt-1">•</span>
+                    <span>בניית אסטרטגיית גיוס מותאמת לארגון</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-accent mt-1">•</span>
+                    <span>שיטות איתור וסקרינינג מועמדים יעילות</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-accent mt-1">•</span>
+                    <span>עריכת ראיונות מובנים ומבוססי התנהגות</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-accent mt-1">•</span>
+                    <span>קבלת החלטות גיוס מבוססת נתונים</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-accent mt-1">•</span>
+                    <span>שיפור חווית המועמד לאורך התהליך</span>
+                  </li>
+                </ul>
+              </div>
+            </Card>
+
+            {/* Course 2 */}
+            <Card className="p-8 hover:shadow-xl transition-all duration-300 border-2 hover:border-secondary/30">
+              <div className="flex items-start gap-4 mb-6">
+                <div className="p-3 rounded-lg bg-secondary/10">
+                  <Users className="w-8 h-8 text-secondary" />
+                </div>
+                <div className="flex-1">
+                  <h3 className="text-2xl font-bold mb-2">קורס מתקדם למנהלי גיוס</h3>
+                  <div className="flex items-center gap-4 text-sm text-muted-foreground mb-4">
+                    <span className="flex items-center gap-1">
+                      <Target className="w-4 h-4" />
+                      10 מפגשים
+                    </span>
+                    <span>20 שעות אקדמיות</span>
+                  </div>
+                </div>
+              </div>
+              
+              <p className="text-muted-foreground mb-6 leading-relaxed">
+                קורס למנהלי גיוס ומנהלי צוותים שרוצים לשפר את היכולות האסטרטגיות והניהוליות שלהם. 
+                דגש על הובלת צוותים, בניית תהליכים ושיתוף פעולה עם ההנהלה.
+              </p>
+
+              <div className="border-t pt-6">
+                <h4 className="font-bold mb-3 flex items-center gap-2">
+                  <CheckCircle2 className="w-5 h-5 text-secondary" />
+                  מה לומדים בקורס:
+                </h4>
+                <ul className="space-y-2 text-foreground mb-6">
+                  <li className="flex items-start gap-2">
+                    <span className="text-secondary mt-1">•</span>
+                    <span>אסטרטגיה ארגונית ותכנון כוח אדם</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-secondary mt-1">•</span>
+                    <span>הובלה וניהול צוותי גיוס</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-secondary mt-1">•</span>
+                    <span>מדידה, ניתוח נתונים ושיפור מתמיד</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-secondary mt-1">•</span>
+                    <span>בניית שותפות עסקית עם מנהלים</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-secondary mt-1">•</span>
+                    <span>ניהול תקציבים וספקים חיצוניים</span>
+                  </li>
+                </ul>
+              </div>
+            </Card>
+
+            {/* Course 3 */}
+            <Card className="p-8 hover:shadow-xl transition-all duration-300 border-2 hover:border-accent/30">
+              <div className="flex items-start gap-4 mb-6">
+                <div className="p-3 rounded-lg bg-accent/10">
+                  <TrendingUp className="w-8 h-8 text-accent" />
+                </div>
+                <div className="flex-1">
+                  <h3 className="text-2xl font-bold mb-2">גיוס בעידן ה-AI והאוטומציה</h3>
+                  <div className="flex items-center gap-4 text-sm text-muted-foreground mb-4">
+                    <span className="flex items-center gap-1">
+                      <Target className="w-4 h-4" />
+                      6 מפגשים
+                    </span>
+                    <span>12 שעות אקדמיות</span>
+                  </div>
+                </div>
+              </div>
+              
+              <p className="text-muted-foreground mb-6 leading-relaxed">
+                קורס ייחודי המתמקד בשילוב טכנולוגיות AI ואוטומציה בתהליכי גיוס, 
+                תוך שמירה על החיבור האנושי והחלטות מושכלות.
+              </p>
+
+              <div className="border-t pt-6">
+                <h4 className="font-bold mb-3 flex items-center gap-2">
+                  <CheckCircle2 className="w-5 h-5 text-accent" />
+                  מה לומדים בקורס:
+                </h4>
+                <ul className="space-y-2 text-foreground mb-6">
+                  <li className="flex items-start gap-2">
+                    <span className="text-accent mt-1">•</span>
+                    <span>כלי AI מובילים לתהליכי גיוס</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-accent mt-1">•</span>
+                    <span>אוטומציה חכמה של משימות חוזרות</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-accent mt-1">•</span>
+                    <span>ניתוח נתוני גיוס והפקת תובנות</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-accent mt-1">•</span>
+                    <span>איזון בין טכנולוגיה לשיקול דעת אנושי</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-accent mt-1">•</span>
+                    <span>בניית תהליכים עתידיים ומתקדמים</span>
+                  </li>
+                </ul>
+              </div>
+            </Card>
+
+            {/* Course 4 */}
+            <Card className="p-8 hover:shadow-xl transition-all duration-300 border-2 hover:border-secondary/30">
+              <div className="flex items-start gap-4 mb-6">
+                <div className="p-3 rounded-lg bg-secondary/10">
+                  <Briefcase className="w-8 h-8 text-secondary" />
+                </div>
+                <div className="flex-1">
+                  <h3 className="text-2xl font-bold mb-2">בניית מחלקת גיוס מצליחה</h3>
+                  <div className="flex items-center gap-4 text-sm text-muted-foreground mb-4">
+                    <span className="flex items-center gap-1">
+                      <Target className="w-4 h-4" />
+                      תוכנית ליווי
+                    </span>
+                    <span>3-6 חודשים</span>
+                  </div>
+                </div>
+              </div>
+              
+              <p className="text-muted-foreground mb-6 leading-relaxed">
+                תוכנית ליווי מקיפה למנהלי גיוס וראשי HR שבונים או משדרגים מחלקת גיוס. 
+                כולל אסטרטגיה, תהליכים, טכנולוגיה ופיתוח הצוות.
+              </p>
+
+              <div className="border-t pt-6">
+                <h4 className="font-bold mb-3 flex items-center gap-2">
+                  <CheckCircle2 className="w-5 h-5 text-secondary" />
+                  מה כולל הליווי:
+                </h4>
+                <ul className="space-y-2 text-foreground mb-6">
+                  <li className="flex items-start gap-2">
+                    <span className="text-secondary mt-1">•</span>
+                    <span>בניית אסטרטגיית גיוס ארגונית</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-secondary mt-1">•</span>
+                    <span>עיצוב תהליכים וזרימות עבודה אופטימליות</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-secondary mt-1">•</span>
+                    <span>בחירה והטמעת טכנולוגיות גיוס</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-secondary mt-1">•</span>
+                    <span>גיוס ופיתוח צוות הגיוס</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-secondary mt-1">•</span>
+                    <span>מדידה, דיווח ושיפור מתמיד</span>
+                  </li>
+                </ul>
+              </div>
+            </Card>
+          </div>
+
+          <div className="text-center mt-12">
+            <Button variant="hero" size="xl">
+              בואו נדבר על הקורס המתאים לכם
+            </Button>
+          </div>
+        </div>
+      </section>
+
       {/* Testimonials Section */}
       <section className="py-20 px-6 bg-muted/30">
         <div className="container mx-auto max-w-6xl">
