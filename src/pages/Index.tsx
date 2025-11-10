@@ -158,8 +158,8 @@ const Index = () => {
                   <img src={googleLogo} alt="Google" className="h-8 object-contain" />
                 </div>
                 <h3 className="text-2xl font-bold mb-2">Google</h3>
-                <p className="text-muted-foreground mb-3">הובלת צוותי גיוס ראשונים בישראל</p>
-                <p className="text-foreground">גיוס מעל אלף עובדים בישראל, אירופה וארה"ב</p>
+                <p className="text-muted-foreground mb-3">המגייסת הראשונה בישראל</p>
+                <p className="text-foreground">גיוס למעלה מ-1,000 עובדים בישראל, אירופה וארה"ב. חלק מצמיחה חסרת תקדים ומגוון אתגרים ייחודיים</p>
               </Card>
             </div>
 
