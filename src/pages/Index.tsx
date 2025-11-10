@@ -29,23 +29,23 @@ const Index = () => {
           className="absolute inset-0 z-0"
           style={{ background: 'var(--gradient-hero)' }}
         />
-        <div className="absolute inset-0 z-0 opacity-10">
-          <div className="absolute top-20 right-20 w-72 h-72 bg-accent rounded-full blur-3xl" />
-          <div className="absolute bottom-20 left-20 w-96 h-96 bg-secondary rounded-full blur-3xl" />
+        <div className="absolute inset-0 z-0 opacity-20">
+          <div className="absolute top-20 right-20 w-72 h-72 bg-accent/30 rounded-full blur-3xl" />
+          <div className="absolute bottom-20 left-20 w-96 h-96 bg-secondary/30 rounded-full blur-3xl" />
         </div>
         
         <div className="container mx-auto px-6 relative z-10">
-          <div className="max-w-4xl mx-auto text-center text-white">
-            <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
+          <div className="max-w-4xl mx-auto text-center">
+            <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight text-foreground">
               כל מה שקשור בגיוס – במקום אחד
             </h1>
-            <p className="text-xl md:text-2xl mb-4 text-white/90 leading-relaxed">
+            <p className="text-xl md:text-2xl mb-4 text-muted-foreground leading-relaxed">
               ייעוץ, ליווי, קורסים והרצאות | גיוס בכירים | בניית אסטרטגיית גיוס עתידית
             </p>
-            <p className="text-lg md:text-xl mb-10 text-white/80 font-light">
+            <p className="text-lg md:text-xl mb-10 text-muted-foreground font-light">
               Workaround – כי גיוס חכם משנה את פני הארגון
             </p>
-            <Button variant="hero" size="xl" className="font-semibold">
+            <Button variant="default" size="xl" className="font-semibold shadow-xl">
               בואו נגייס יחד
             </Button>
           </div>
