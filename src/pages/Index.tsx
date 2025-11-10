@@ -8,7 +8,10 @@ import {
   TrendingUp, 
   Briefcase,
   CheckCircle2,
-  ArrowLeft
+  ArrowLeft,
+  Brain,
+  Handshake,
+  Award
 } from "lucide-react";
 import consultantPortrait from "@/assets/consultant-portrait.jpg";
 import googleLogo from "@/assets/google-logo.png";
@@ -239,7 +242,9 @@ const Index = () => {
             {/* Workshop 1 */}
             <Card className="p-8 hover:shadow-xl transition-all duration-300 border-2 hover:border-accent/30">
               <div className="flex items-start gap-4 mb-6">
-                <div className="text-4xl">👨‍💼</div>
+                <div className="p-3 rounded-lg bg-accent/10">
+                  <Brain className="w-8 h-8 text-accent" />
+                </div>
                 <div className="flex-1">
                   <h3 className="text-2xl font-bold mb-2">גיוס לעידן הבינה המלאכותית</h3>
                 </div>
@@ -282,7 +287,9 @@ const Index = () => {
             {/* Workshop 2 */}
             <Card className="p-8 hover:shadow-xl transition-all duration-300 border-2 hover:border-secondary/30">
               <div className="flex items-start gap-4 mb-6">
-                <div className="text-4xl">🤝</div>
+                <div className="p-3 rounded-lg bg-secondary/10">
+                  <Handshake className="w-8 h-8 text-secondary" />
+                </div>
                 <div className="flex-1">
                   <h3 className="text-2xl font-bold mb-2">להיות שותף אמיתי בצ'ום</h3>
                 </div>
@@ -317,7 +324,9 @@ const Index = () => {
             {/* Workshop 3 */}
             <Card className="p-8 hover:shadow-xl transition-all duration-300 border-2 hover:border-accent/30">
               <div className="flex items-start gap-4 mb-6">
-                <div className="text-4xl">🚫</div>
+                <div className="p-3 rounded-lg bg-accent/10">
+                  <Award className="w-8 h-8 text-accent" />
+                </div>
                 <div className="flex-1">
                   <h3 className="text-2xl font-bold mb-2">לגייס לפי כישורים, לא לפי תפקידים</h3>
                 </div>
