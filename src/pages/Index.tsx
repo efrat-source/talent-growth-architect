@@ -302,35 +302,39 @@ const Index = () => {
             <Card className="p-8 hover:shadow-xl transition-all duration-300 border-2 hover:border-secondary/30">
               <div className="flex items-start gap-4 mb-6">
                 <div className="p-3 rounded-lg bg-secondary/10">
-                  <Handshake className="w-8 h-8 text-secondary" />
+                  <Users className="w-8 h-8 text-secondary" />
                 </div>
-                <div className="flex-1">
-                  <h3 className="text-2xl font-bold mb-2">להיות שותף אמיתי בצ'ום</h3>
+                <div className="flex-1 min-w-0">
+                  <h3 className="text-2xl font-bold mb-2 break-words">ראיונות בעידן הבינה</h3>
+                  <p className="text-lg font-semibold text-secondary">האנושיות נשארת, אבל השיטה משתנה</p>
                 </div>
               </div>
               
               <p className="text-muted-foreground mb-6 leading-relaxed">
-                מגייסים כשותפים עסקיים ולא רק כמבצעים.
+                בעולם שבו מועמדים משתמשים ב־AI כדי ללטש תשובות, לזהות מגמות ולספר סיפור מושלם, המראיין חייב לדעת לשאול אחרת, לזהות עומק אמיתי ולהשתמש בכלים חכמים בעצמו.
               </p>
 
               <div className="border-t pt-6">
+                <p className="text-foreground mb-4 font-medium">
+                  הסדנה נועדת למנהלים, צוותי גיוס ומשאבי אנוש
+                </p>
                 <ul className="space-y-3 text-foreground mb-6">
                   <li className="flex items-start gap-2">
-                    <span className="text-secondary mt-1">•</span>
-                    <span>איך לבנות שיח אסטרטגי עם מנהלים</span>
+                    <span className="text-secondary mt-1">📊</span>
+                    <span>מתודולוגיה קלאסית (Behavioral, STAR)</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <span className="text-secondary mt-1">•</span>
-                    <span>איך להציג נתונים ולקבל החלטות מבוססות</span>
+                    <span className="text-secondary mt-1">🧠</span>
+                    <span>כלים אבחוניים לראיון עומק</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <span className="text-secondary mt-1">•</span>
-                    <span>איך להגדיל השפעה מבלי לאבד גמישות</span>
+                    <span className="text-secondary mt-1">🤖</span>
+                    <span>הבנה של השפעת הבינה המלאכותית על ראיונות העבודה</span>
                   </li>
                 </ul>
                 
                 <div className="text-sm text-secondary font-medium">
-                  ⏱️ שעתיים | מתאים גם למנהלי גיוס
+                  ⏱️ סדנת עומק | מתאים למנהלים וצוותי גיוס
                 </div>
               </div>
             </Card>
