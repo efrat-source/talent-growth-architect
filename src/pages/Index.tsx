@@ -652,25 +652,48 @@ const Index = () => {
 
           <div className="grid md:grid-cols-3 gap-8 mb-10">
             <Card className="p-8 hover:shadow-xl transition-all duration-300 hover:-translate-y-2">
-              <h3 className="text-xl font-bold mb-3">החלטות קלות – הגורם המפתיע לטעויות גיוס</h3>
-              <p className="text-muted-foreground">איך החלטות אוטומטיות משפיעות על איכות הגיוס שלנו</p>
+              <a 
+                href="https://www.workaroundnow.com/post/%D7%94%D7%97%D7%9C%D7%98%D7%95%D7%AA%D7%A7%D7%9C%D7%95%D7%AA-%D7%94%D7%92%D7%95%D7%A8%D7%9D%D7%94%D7%9E%D7%A4%D7%AA%D7%99%D7%A2%D7%9C%D7%98%D7%A2%D7%95%D7%99%D7%95%D7%95%D7%AA%D7%92%D7%99%D7%95%D7%A1"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block"
+              >
+                <h3 className="text-xl font-bold mb-3">החלטות קלות – הגורם המפתיע לטעויות גיוס</h3>
+                <p className="text-muted-foreground">איך החלטות אוטומטיות משפיעות על איכות הגיוס שלנו</p>
+              </a>
             </Card>
 
             <Card className="p-8 hover:shadow-xl transition-all duration-300 hover:-translate-y-2">
-              <h3 className="text-xl font-bold mb-3">למה כדאי לגייס לפי כישורים ולא לפי תפקידים</h3>
-              <p className="text-muted-foreground">גישה חדשה לבניית צוותים בעולם משתנה</p>
+              <a 
+                href="https://www.workaroundnow.com/post/%D7%90%D7%9E%D7%A8%D7%95-%D7%9C%D7%99-%D7%96%D7%94-%D7%91%D7%A1%D7%93%D7%A8-%D7%A9%D7%97%D7%A6%D7%99-%D7%9C%D7%90-%D7%99%D7%AA%D7%90%D7%99%D7%9E%D7%95-%D7%96%D7%94-%D7%97%D7%9C%D7%A7-%D7%9E%D7%94%D7%9E%D7%A9%D7%97%D7%A7-%D7%A8%D7%A7-%D7%A9%D7%96%D7%94-%D7%9C%D7%90-%D7%9E%D7%A9%D7%97%D7%A7-%D7%A1%D7%99%D7%A4%D7%95%D7%A8-%D7%90%D7%9E%D7%99%D7%AA%D7%99-%D7%A9%D7%A7%D7%A8%D7%94-%D7%91%D7%90%D7%9E%D7%AA"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block"
+              >
+                <h3 className="text-xl font-bold mb-3">"זה בסדר שחצי לא יתאימו" – למה זה לא בסדר</h3>
+                <p className="text-muted-foreground">למה גישה של "זה חלק מהמשחק" עלולה לעלות יקר לארגון</p>
+              </a>
             </Card>
 
             <Card className="p-8 hover:shadow-xl transition-all duration-300 hover:-translate-y-2">
-              <h3 className="text-xl font-bold mb-3">איך בונים אסטרטגיית גיוס לעידן ה-AI</h3>
-              <p className="text-muted-foreground">שילוב טכנולוגיה מתקדמת עם החלטות אנושיות נכונות</p>
+              <a 
+                href="https://www.workaroundnow.com/post/%D7%91%D7%99%D7%96%D7%A0%D7%A1-%D7%A4%D7%A8%D7%98%D7%A0%D7%A8-%D7%94%D7%90%D7%95%D7%AA%D7%99%D7%95%D7%AA-%D7%94%D7%A7%D7%98%D7%A0%D7%95%D7%AA"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block"
+              >
+                <h3 className="text-xl font-bold mb-3">ביזנס פרטנר – האותיות הקטנות</h3>
+                <p className="text-muted-foreground">מה באמת נדרש כדי להיות שותף עסקי אמיתי בארגון</p>
+              </a>
             </Card>
           </div>
 
           <div className="text-center">
-            <Button variant="outline" size="lg" className="group">
-              לבלוג המלא
-              <ArrowLeft className="mr-2 group-hover:translate-x-1 transition-transform" />
+            <Button variant="outline" size="lg" className="group" asChild>
+              <a href="https://www.workaroundnow.com/blog" target="_blank" rel="noopener noreferrer">
+                כלים ספציפיים בישראל
+                <ArrowLeft className="mr-2 group-hover:translate-x-1 transition-transform" />
+              </a>
             </Button>
           </div>
         </div>
