@@ -11,6 +11,10 @@ import {
   ArrowLeft
 } from "lucide-react";
 import consultantPortrait from "@/assets/consultant-portrait.jpg";
+import googleLogo from "@/assets/google-logo.png";
+import lyftLogo from "@/assets/lyft-logo.png";
+import nextInsuranceLogo from "@/assets/next-insurance-logo.png";
+import workaroundLogo from "@/assets/workaround-logo.png";
 
 const Index = () => {
   return (
@@ -143,10 +147,13 @@ const Index = () => {
           {/* Timeline */}
           <div className="space-y-8 border-r-4 border-accent/30 pr-8 mr-4">
             <div className="relative">
-              <div className="absolute -right-[3.25rem] top-2 w-10 h-10 rounded-full bg-accent flex items-center justify-center shadow-lg">
-                <Briefcase className="w-5 h-5 text-white" />
+              <div className="absolute -right-[3.25rem] top-2 w-10 h-10 rounded-full bg-white flex items-center justify-center shadow-lg p-1">
+                <img src={googleLogo} alt="Google" className="w-full h-full object-contain" />
               </div>
               <Card className="p-6 hover:shadow-lg transition-all duration-300">
+                <div className="flex items-center gap-4 mb-4">
+                  <img src={googleLogo} alt="Google" className="h-8 object-contain" />
+                </div>
                 <h3 className="text-2xl font-bold mb-2">Google</h3>
                 <p className="text-muted-foreground mb-3">הובלת צוותי גיוס ראשונים בישראל</p>
                 <p className="text-foreground">גיוס מעל אלף עובדים בישראל, אירופה וארה"ב</p>
@@ -154,10 +161,15 @@ const Index = () => {
             </div>
 
             <div className="relative">
-              <div className="absolute -right-[3.25rem] top-2 w-10 h-10 rounded-full bg-secondary flex items-center justify-center shadow-lg">
-                <TrendingUp className="w-5 h-5 text-white" />
+              <div className="absolute -right-[3.25rem] top-2 w-10 h-10 rounded-full bg-white flex items-center justify-center shadow-lg p-1">
+                <img src={lyftLogo} alt="Lyft" className="w-full h-full object-contain" />
               </div>
               <Card className="p-6 hover:shadow-lg transition-all duration-300">
+                <div className="flex items-center gap-4 mb-4">
+                  <img src={lyftLogo} alt="Lyft" className="h-7 object-contain" />
+                  <span className="text-muted-foreground">&</span>
+                  <img src={nextInsuranceLogo} alt="Next Insurance" className="h-7 object-contain" />
+                </div>
                 <h3 className="text-2xl font-bold mb-2">Lyft & Next Insurance</h3>
                 <p className="text-muted-foreground mb-3">ראש פונקציות גיוס גלובליות</p>
                 <p className="text-foreground">ניהול צוותים חוצי-יבשות ובניית תשתיות גיוס לארגונים בצמיחה מואצת</p>
@@ -165,10 +177,13 @@ const Index = () => {
             </div>
 
             <div className="relative">
-              <div className="absolute -right-[3.25rem] top-2 w-10 h-10 rounded-full bg-accent flex items-center justify-center shadow-lg">
-                <Target className="w-5 h-5 text-white" />
+              <div className="absolute -right-[3.25rem] top-2 w-10 h-10 rounded-full bg-white flex items-center justify-center shadow-lg p-1">
+                <img src={workaroundLogo} alt="Workaround" className="w-full h-full object-contain" />
               </div>
               <Card className="p-6 hover:shadow-lg transition-all duration-300">
+                <div className="flex items-center gap-4 mb-4">
+                  <img src={workaroundLogo} alt="Workaround" className="h-8 object-contain" />
+                </div>
                 <h3 className="text-2xl font-bold mb-2">Workaround</h3>
                 <p className="text-muted-foreground mb-3">ייעוץ והדרכה לצוותי גיוס ומנהלים</p>
                 <p className="text-foreground">העברת ידע, פיתוח תהליכים והובלת שינוי אסטרטגי בארגונים</p>
