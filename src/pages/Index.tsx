@@ -691,7 +691,7 @@ const Index = () => {
           <div className="text-center">
             <Button variant="outline" size="lg" className="group" asChild>
               <a href="https://www.workaroundnow.com/blog" target="_blank" rel="noopener noreferrer">
-                כלים ספציפיים בישראל
+                לקריאת הבלוג
                 <ArrowLeft className="mr-2 group-hover:translate-x-1 transition-transform" />
               </a>
             </Button>
