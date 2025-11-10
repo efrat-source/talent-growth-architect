@@ -11,7 +11,8 @@ import {
   ArrowLeft,
   Brain,
   Handshake,
-  Award
+  Award,
+  Quote
 } from "lucide-react";
 import consultantPortrait from "@/assets/consultant-portrait.jpg";
 import googleLogo from "@/assets/google-logo.png";
@@ -363,6 +364,104 @@ const Index = () => {
             <Button variant="hero" size="xl">
               בואו נדבר על הסדנה המתאימה לכם
             </Button>
+          </div>
+        </div>
+      </section>
+
+      {/* Testimonials Section */}
+      <section className="py-20 px-6 bg-muted/30">
+        <div className="container mx-auto max-w-6xl">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl md:text-5xl font-bold mb-6">מה אומרים עלי</h2>
+            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+              המלצות מארגונים ומנהלים שעבדתי איתם
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-3 gap-8">
+            {/* Testimonial 1 */}
+            <Card className="p-8 hover:shadow-xl transition-all duration-300 relative">
+              <Quote className="w-12 h-12 text-accent/20 absolute top-6 right-6" />
+              <div className="relative z-10">
+                <p className="text-foreground text-lg leading-relaxed mb-6 italic">
+                  "יהוד לקחה את צוות הגיוס שלנו למקום אחר לגמרי. הצליחה לשלב בין מקצועיות גבוהה לבין הבנה עמוקה של האתגרים שלנו כסטארטאפ בצמיחה. התוצאות היו מיידיות."
+                </p>
+                <div className="border-t pt-4">
+                  <p className="font-bold text-foreground">עדי שמש</p>
+                  <p className="text-sm text-muted-foreground">מנהלת משאבי אנוש, חברת טכנולוגיה</p>
+                </div>
+              </div>
+            </Card>
+
+            {/* Testimonial 2 */}
+            <Card className="p-8 hover:shadow-xl transition-all duration-300 relative">
+              <Quote className="w-12 h-12 text-secondary/20 absolute top-6 right-6" />
+              <div className="relative z-10">
+                <p className="text-foreground text-lg leading-relaxed mb-6 italic">
+                  "הסדנה שיהוד העבירה למנהלים שלנו שינתה את הדרך שבה אנחנו מראיינים. המנהלים יצאו עם כלים מעשיים ובטחון חדש בתהליך קבלת ההחלטות."
+                </p>
+                <div className="border-t pt-4">
+                  <p className="font-bold text-foreground">רון כהן</p>
+                  <p className="text-sm text-muted-foreground">סמנכ"ל תפעול, חברת SaaS</p>
+                </div>
+              </div>
+            </Card>
+
+            {/* Testimonial 3 */}
+            <Card className="p-8 hover:shadow-xl transition-all duration-300 relative">
+              <Quote className="w-12 h-12 text-accent/20 absolute top-6 right-6" />
+              <div className="relative z-10">
+                <p className="text-foreground text-lg leading-relaxed mb-6 italic">
+                  "עבדנו עם יהוד בתהליך גיוס מורכב של מנהלים בכירים. היא הבינה בדיוק מה אנחנו מחפשים והביאה לנו מועמדים מעולים. הגישה שלה מקצועית ואמפתית בו זמנית."
+                </p>
+                <div className="border-t pt-4">
+                  <p className="font-bold text-foreground">דנה לוי</p>
+                  <p className="text-sm text-muted-foreground">מייסדת ומנכ"לית, סטארטאפ פינטק</p>
+                </div>
+              </div>
+            </Card>
+
+            {/* Testimonial 4 */}
+            <Card className="p-8 hover:shadow-xl transition-all duration-300 relative">
+              <Quote className="w-12 h-12 text-secondary/20 absolute top-6 right-6" />
+              <div className="relative z-10">
+                <p className="text-foreground text-lg leading-relaxed mb-6 italic">
+                  "הקורס של יהוד נתן לצוות הגיוס שלנו את הבסיס המקצועי שחסר להם. היא יודעת להעביר ידע מורכב בצורה ברורה ומעשית, עם דוגמאות מהשטח."
+                </p>
+                <div className="border-t pt-4">
+                  <p className="font-bold text-foreground">מיכל ברק</p>
+                  <p className="text-sm text-muted-foreground">מנהלת גיוס, חברה גלובלית</p>
+                </div>
+              </div>
+            </Card>
+
+            {/* Testimonial 5 */}
+            <Card className="p-8 hover:shadow-xl transition-all duration-300 relative">
+              <Quote className="w-12 h-12 text-accent/20 absolute top-6 right-6" />
+              <div className="relative z-10">
+                <p className="text-foreground text-lg leading-relaxed mb-6 italic">
+                  "הייעוץ של יהוד עזר לנו לבנות אסטרטגיית גיוס מאפס. היא הבינה את הצרכים העסקיים שלנו והצליחה לתרגם אותם לתהליכים פרקטיים שעובדים."
+                </p>
+                <div className="border-t pt-4">
+                  <p className="font-bold text-foreground">אורי גולן</p>
+                  <p className="text-sm text-muted-foreground">מנכ"ל, חברת ייעוץ</p>
+                </div>
+              </div>
+            </Card>
+
+            {/* Testimonial 6 */}
+            <Card className="p-8 hover:shadow-xl transition-all duration-300 relative">
+              <Quote className="w-12 h-12 text-secondary/20 absolute top-6 right-6" />
+              <div className="relative z-10">
+                <p className="text-foreground text-lg leading-relaxed mb-6 italic">
+                  "יהוד לא רק מגייסת מצוינת, היא גם מורה מעולה. הצוות שלי למד ממנה כלים וטכניקות שהם משתמשים בהם כל יום. היא שינתה את התרבות הארגונית שלנו סביב גיוס."
+                </p>
+                <div className="border-t pt-4">
+                  <p className="font-bold text-foreground">נועה אברהם</p>
+                  <p className="text-sm text-muted-foreground">מנהלת משאבי אנוש, חברת קמעונאות</p>
+                </div>
+              </div>
+            </Card>
           </div>
         </div>
       </section>
