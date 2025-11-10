@@ -421,16 +421,16 @@ const Index = () => {
               </div>
             </Card>
 
-            {/* Testimonial 4 */}
+            {/* Real Testimonial 4 - Ilana Roitman-Aloni */}
             <Card className="p-8 hover:shadow-xl transition-all duration-300 relative">
               <Quote className="w-12 h-12 text-secondary/20 absolute top-6 right-6" />
               <div className="relative z-10">
                 <p className="text-foreground text-lg leading-relaxed mb-6 italic">
-                  "הקורס של יהוד נתן לצוות הגיוס שלנו את הבסיס המקצועי שחסר להם. היא יודעת להעביר ידע מורכב בצורה ברורה ומעשית, עם דוגמאות מהשטח."
+                  "העבודה שלי עם אפרת החלה לפני כשלוש שנים. אני יכולה להעיד ממקור ראשון שאפרת מביאה איתה המון הבנה וידע מקצועיים בתהליכי גיוס טכנולוגיים גלובליים ולוקאליים, שיטות גיוס מתקדמות, מדידה בג'וס, ייעול תהליכי גיוס וחיד עוד נטויה. אפרת עזרה לי המון ברמה האישית ואני ממליצה עליה מאוד לכל מי שצריך סיוע בהקמת תהליכי ותשתיות גיוס מאפס וגם כאלה שצריכים לטייב ולשפר אותם. תענוג לעבוד איתה!"
                 </p>
                 <div className="border-t pt-4">
-                  <p className="font-bold text-foreground">מיכל ברק</p>
-                  <p className="text-sm text-muted-foreground">מנהלת גיוס, חברה גלובלית</p>
+                  <p className="font-bold text-foreground">אילנה רויטמן-אלוני</p>
+                  <p className="text-sm text-muted-foreground">⭐⭐⭐⭐⭐ ביקורת Google</p>
                 </div>
               </div>
             </Card>
