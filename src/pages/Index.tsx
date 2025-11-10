@@ -142,7 +142,8 @@ const Index = () => {
                 <img 
                   src={consultantPortrait} 
                   alt="תמונת פרופיל"
-                  className="relative rounded-full w-80 h-80 object-cover object-center shadow-2xl border-4 border-white mx-auto"
+                  className="relative rounded-full w-80 h-80 object-cover shadow-2xl border-4 border-white mx-auto"
+                  style={{ objectPosition: '40% center' }}
                 />
               </div>
             </div>
