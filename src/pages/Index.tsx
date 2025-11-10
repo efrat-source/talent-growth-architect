@@ -143,7 +143,7 @@ const Index = () => {
                   src={consultantPortrait} 
                   alt="תמונת פרופיל"
                   className="relative rounded-full w-80 h-80 object-cover shadow-2xl border-4 border-white mx-auto"
-                  style={{ objectPosition: '60% center' }}
+                  style={{ objectPosition: '20% center' }}
                 />
               </div>
             </div>
