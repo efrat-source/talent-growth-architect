@@ -407,16 +407,16 @@ const Index = () => {
               </div>
             </Card>
 
-            {/* Testimonial 3 */}
+            {/* Real Testimonial 3 - Moriya Stalkovsky */}
             <Card className="p-8 hover:shadow-xl transition-all duration-300 relative">
               <Quote className="w-12 h-12 text-accent/20 absolute top-6 right-6" />
               <div className="relative z-10">
                 <p className="text-foreground text-lg leading-relaxed mb-6 italic">
-                  "עבדנו עם יהוד בתהליך גיוס מורכב של מנהלים בכירים. היא הבינה בדיוק מה אנחנו מחפשים והביאה לנו מועמדים מעולים. הגישה שלה מקצועית ואמפתית בו זמנית."
+                  "I've had the privilege of working with Efrat, and she is without a doubt one of the most professional and impactful Talent Acquisition leaders I've ever met. She guided me through a deep and precise process to enhance my leadership skills in TA, combining a strategic approach, practical tools, and constant support. Thanks to her, I was able to refine processes, strengthen my team leadership, and tackle challenges more effectively. I highly recommend her to anyone looking to take their recruitment challenges to the next level"
                 </p>
                 <div className="border-t pt-4">
-                  <p className="font-bold text-foreground">דנה לוי</p>
-                  <p className="text-sm text-muted-foreground">מייסדת ומנכ"לית, סטארטאפ פינטק</p>
+                  <p className="font-bold text-foreground">Moriya Stalkovsky</p>
+                  <p className="text-sm text-muted-foreground">⭐⭐⭐⭐⭐ ביקורת Google</p>
                 </div>
               </div>
             </Card>
