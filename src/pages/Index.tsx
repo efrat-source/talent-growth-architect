@@ -25,10 +25,92 @@ const Index = () => {
   // Detect if page is in iframe for embedding
   const isEmbedded = typeof window !== 'undefined' && window.self !== window.top;
   
+  // Structured data for SEO
+  const structuredData = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "name": "Workaround",
+        "url": "https://lovable.dev/",
+        "logo": "https://lovable.dev/workaround-logo.png",
+        "description": "ייעוץ וליווי מקצועי בתחום הגיוס, קורסים וסדנאות בגיוס טכנולוגי ובעידן הבינה המלאכותית",
+        "founder": {
+          "@type": "Person",
+          "name": "Efrat Dagan",
+          "jobTitle": "יועצת ומלווה בתחום הגיוס",
+          "description": "מומחית גיוס בעלת ניסיון בחברות גלובליות כמו Google, Lyft ו-Next Insurance"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+972-55-500-1909",
+          "contactType": "Customer Service",
+          "availableLanguage": ["he", "en"]
+        }
+      },
+      {
+        "@type": "ProfessionalService",
+        "name": "Workaround - שירותי ייעוץ וליווי בגיוס",
+        "description": "שירותי ייעוץ וליווי מקצועיים בתחום הגיוס, קורסים, סדנאות ואיתור בכירים",
+        "provider": {
+          "@type": "Organization",
+          "name": "Workaround"
+        },
+        "areaServed": "IL",
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "שירותי גיוס",
+          "itemListElement": [
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "ייעוץ בנושאי גיוס ואסטרטגיית גיוס",
+                "description": "פיצוח אתגרי גיוס ובניית תהליכים יעילים"
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "ליווי מנהלי ומחלקות גיוס",
+                "description": "חיזוק צוותים ופיתוח מקצועי מתמיד"
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "קורסים, הדרכות והרצאות",
+                "description": "העברת ידע ושיטות עבודה מתקדמות"
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "שירותי איתור בכירים, גיוס והשמה",
+                "description": "מציאת המועמדים המושלמים לארגון"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  };
+  
   return (
-    <div className="min-h-screen bg-background" dir="rtl">
-      {/* Hero Section */}
-      <section className={`relative flex items-center justify-center overflow-hidden ${isEmbedded ? 'py-16' : 'min-h-[90vh]'}`}>
+    <>
+      {/* Structured Data for SEO */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+      />
+      
+      <div className="min-h-screen bg-background" dir="rtl">
+      <main>
+        {/* Hero Section */}
+        <section className={`relative flex items-center justify-center overflow-hidden ${isEmbedded ? 'py-16' : 'min-h-[90vh]'}`} aria-label="Hero">
         <div 
           className="absolute inset-0 z-0"
           style={{ background: 'var(--gradient-hero)' }}
@@ -155,9 +237,10 @@ const Index = () => {
                 <div className="absolute -inset-4 bg-gradient-to-r from-accent to-secondary rounded-full blur-2xl opacity-20" />
                 <img 
                   src={consultantPortrait} 
-                  alt="תמונת פרופיל"
+                  alt="אפרת דגן - יועצת ומלווה בכירה בתחום הגיוס עם ניסיון ב-Google, Lyft ו-Next Insurance"
                   className="relative rounded-full w-80 h-80 object-contain shadow-2xl border-4 border-white mx-auto"
                   style={{ objectPosition: '20% center' }}
+                  loading="eager"
                 />
               </div>
             </div>
@@ -167,11 +250,11 @@ const Index = () => {
           <div className="space-y-8 border-r-4 border-accent/30 pr-8 mr-4">
             <div className="relative">
               <div className="absolute -right-[3.25rem] top-2 w-10 h-10 rounded-full bg-white flex items-center justify-center shadow-lg p-1">
-                <img src={googleLogo} alt="Google" className="w-full h-full object-contain" />
+                <img src={googleLogo} alt="לוגו Google" className="w-full h-full object-contain" loading="lazy" />
               </div>
               <Card className="p-6 hover:shadow-lg transition-all duration-300">
                 <div className="flex items-center gap-4 mb-4">
-                  <img src={googleLogo} alt="Google" className="h-8 object-contain" />
+                  <img src={googleLogo} alt="לוגו Google" className="h-8 object-contain" loading="lazy" />
                 </div>
                 <h3 className="text-2xl font-bold mb-2">Google</h3>
                 <p className="text-muted-foreground mb-3">ייסדה את צוות המו"פ של גוגל בישראל. עמדה בראש צוות הגיוס.</p>
@@ -185,11 +268,11 @@ const Index = () => {
 
             <div className="relative">
               <div className="absolute -right-[3.25rem] top-2 w-10 h-10 rounded-full bg-white flex items-center justify-center shadow-lg p-1">
-                <img src={lyftLogo} alt="Lyft" className="w-full h-full object-contain" />
+                <img src={lyftLogo} alt="לוגו Lyft" className="w-full h-full object-contain" loading="lazy" />
               </div>
               <Card className="p-6 hover:shadow-lg transition-all duration-300">
                 <div className="flex items-center gap-4 mb-4">
-                  <img src={lyftLogo} alt="Lyft" className="h-7 object-contain" />
+                  <img src={lyftLogo} alt="לוגו Lyft" className="h-7 object-contain" loading="lazy" />
                 </div>
                 <h3 className="text-2xl font-bold mb-2">Lyft</h3>
                 <p className="text-muted-foreground mb-3">ראש פונקציות גיוס גלובליות | חטיבת הרכבים האוטונומיים</p>
@@ -199,11 +282,11 @@ const Index = () => {
 
             <div className="relative">
               <div className="absolute -right-[3.25rem] top-2 w-10 h-10 rounded-full bg-white flex items-center justify-center shadow-lg p-1">
-                <img src={nextInsuranceLogo} alt="Next Insurance" className="w-full h-full object-contain" />
+                <img src={nextInsuranceLogo} alt="לוגו Next Insurance" className="w-full h-full object-contain" loading="lazy" />
               </div>
               <Card className="p-6 hover:shadow-lg transition-all duration-300">
                 <div className="flex items-center gap-4 mb-4">
-                  <img src={nextInsuranceLogo} alt="Next Insurance" className="h-7 object-contain" />
+                  <img src={nextInsuranceLogo} alt="לוגו Next Insurance" className="h-7 object-contain" loading="lazy" />
                 </div>
                 <h3 className="text-2xl font-bold mb-2">Next Insurance</h3>
                 <p className="text-muted-foreground mb-3">ראש פונקציות גיוס גלובליות</p>
@@ -213,11 +296,11 @@ const Index = () => {
 
             <div className="relative">
               <div className="absolute -right-[3.25rem] top-2 w-10 h-10 rounded-full bg-white flex items-center justify-center shadow-lg p-1">
-                <img src={workaroundLogo} alt="Workaround" className="w-full h-full object-contain" />
+                <img src={workaroundLogo} alt="לוגו Workaround" className="w-full h-full object-contain" loading="lazy" />
               </div>
               <Card className="p-6 hover:shadow-lg transition-all duration-300">
                 <div className="flex items-center gap-4 mb-4">
-                  <img src={workaroundLogo} alt="Workaround" className="h-8 object-contain" />
+                  <img src={workaroundLogo} alt="לוגו Workaround" className="h-8 object-contain" loading="lazy" />
                 </div>
                 <h3 className="text-2xl font-bold mb-2">Workaround</h3>
                 <p className="text-muted-foreground mb-3">ייעוץ והדרכה לצוותי גיוס ומנהלים</p>
@@ -704,8 +787,10 @@ const Index = () => {
         </div>
       </section>
 
+      </main>
+      
       {/* Footer */}
-      <footer className="py-12 px-6 border-t">
+      <footer className="py-12 px-6 border-t" role="contentinfo">
         <div className="container mx-auto max-w-6xl text-center">
           <h3 className="text-2xl font-bold mb-4">Workaround</h3>
           <p className="text-muted-foreground mb-6">גיוס חכם משנה את פני הארגון</p>
@@ -717,6 +802,7 @@ const Index = () => {
         </div>
       </footer>
     </div>
+    </>
   );
 };
 
