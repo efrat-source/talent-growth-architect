@@ -22,10 +22,13 @@ import nextInsuranceLogo from "@/assets/next-insurance-logo.png";
 import workaroundLogo from "@/assets/workaround-logo.png";
 
 const Index = () => {
+  // Detect if page is in iframe for embedding
+  const isEmbedded = typeof window !== 'undefined' && window.self !== window.top;
+  
   return (
     <div className="min-h-screen bg-background" dir="rtl">
       {/* Hero Section */}
-      <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden">
+      <section className={`relative flex items-center justify-center overflow-hidden ${isEmbedded ? 'py-16' : 'min-h-[90vh]'}`}>
         <div 
           className="absolute inset-0 z-0"
           style={{ background: 'var(--gradient-hero)' }}
