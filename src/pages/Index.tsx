@@ -23,6 +23,9 @@ import googleLogo from "@/assets/google-logo.png";
 import lyftLogo from "@/assets/lyft-logo.png";
 import nextInsuranceLogo from "@/assets/next-insurance-logo.png";
 import workaroundLogo from "@/assets/workaround-logo.png";
+import blogDecisions from "@/assets/blog-decisions.jpg";
+import blogFit from "@/assets/blog-fit.jpg";
+import blogPartnership from "@/assets/blog-partnership.jpg";
 
 const Index = () => {
   // Detect if page is in iframe for embedding
@@ -752,8 +755,13 @@ const Index = () => {
                 rel="noopener noreferrer"
                 className="block"
               >
-                <div className="h-48 bg-gradient-to-br from-secondary/20 to-accent/20 flex items-center justify-center group-hover:from-secondary/30 group-hover:to-accent/30 transition-all duration-500">
-                  <FileText className="w-16 h-16 text-secondary" />
+                <div className="h-48 overflow-hidden">
+                  <img 
+                    src={blogDecisions} 
+                    alt="החלטות קלות בגיוס - איור של תהליך קבלת החלטות"
+                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                    loading="lazy"
+                  />
                 </div>
                 <div className="p-6">
                   <div className="flex items-center gap-2 text-sm text-muted-foreground mb-3">
@@ -781,8 +789,13 @@ const Index = () => {
                 rel="noopener noreferrer"
                 className="block"
               >
-                <div className="h-48 bg-gradient-to-br from-primary/20 to-secondary/20 flex items-center justify-center group-hover:from-primary/30 group-hover:to-secondary/30 transition-all duration-500">
-                  <AlertCircle className="w-16 h-16 text-primary" />
+                <div className="h-48 overflow-hidden">
+                  <img 
+                    src={blogFit} 
+                    alt="התאמת מועמדים - איור של חתיכות פאזל שלא מתאימות"
+                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                    loading="lazy"
+                  />
                 </div>
                 <div className="p-6">
                   <div className="flex items-center gap-2 text-sm text-muted-foreground mb-3">
@@ -810,8 +823,13 @@ const Index = () => {
                 rel="noopener noreferrer"
                 className="block"
               >
-                <div className="h-48 bg-gradient-to-br from-accent/20 to-primary/20 flex items-center justify-center group-hover:from-accent/30 group-hover:to-primary/30 transition-all duration-500">
-                  <Users className="w-16 h-16 text-accent" />
+                <div className="h-48 overflow-hidden">
+                  <img 
+                    src={blogPartnership} 
+                    alt="ביזנס פרטנר - איור של שותפות עסקית ולחיצת יד"
+                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                    loading="lazy"
+                  />
                 </div>
                 <div className="p-6">
                   <div className="flex items-center gap-2 text-sm text-muted-foreground mb-3">
