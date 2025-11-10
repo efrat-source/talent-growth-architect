@@ -393,16 +393,16 @@ const Index = () => {
               </div>
             </Card>
 
-            {/* Testimonial 2 */}
+            {/* Real Testimonial 2 - Yael Vitelzon */}
             <Card className="p-8 hover:shadow-xl transition-all duration-300 relative">
               <Quote className="w-12 h-12 text-secondary/20 absolute top-6 right-6" />
               <div className="relative z-10">
                 <p className="text-foreground text-lg leading-relaxed mb-6 italic">
-                  "הסדנה שיהוד העבירה למנהלים שלנו שינתה את הדרך שבה אנחנו מראיינים. המנהלים יצאו עם כלים מעשיים ובטחון חדש בתהליך קבלת ההחלטות."
+                  "Working with Efrat Dagan was an absolute pleasure. She helped me shape and refine our structured hiring process, quickly understanding our needs and adapting the approach to fit perfectly. Her professionalism, expertise, and insightful guidance made a real difference, and she did it all with such a positive and collaborative attitude. I truly enjoyed working with her and highly recommend her to anyone looking for a knowledgeable and engaging talent acquisition consultant."
                 </p>
                 <div className="border-t pt-4">
-                  <p className="font-bold text-foreground">רון כהן</p>
-                  <p className="text-sm text-muted-foreground">סמנכ"ל תפעול, חברת SaaS</p>
+                  <p className="font-bold text-foreground">יעל ויטלזון</p>
+                  <p className="text-sm text-muted-foreground">⭐⭐⭐⭐⭐ ביקורת Google</p>
                 </div>
               </div>
             </Card>
