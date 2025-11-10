@@ -13,7 +13,10 @@ import {
   Handshake,
   Award,
   Quote,
-  Code
+  Code,
+  Calendar,
+  FileText,
+  AlertCircle
 } from "lucide-react";
 import consultantPortrait from "@/assets/consultant-portrait.jpg";
 import googleLogo from "@/assets/google-logo.png";
@@ -730,48 +733,102 @@ const Index = () => {
       </section>
 
       {/* Blog Section */}
-      <section className="py-20 px-6 bg-background">
+      <section className="py-20 px-6 bg-gradient-to-b from-background to-muted/20">
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-l from-secondary to-accent bg-clip-text text-transparent">
-              פוסטים אחרונים
+              פוסטים אחרונים בבלוג
             </h2>
+            <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
+              תובנות, טיפים ומאמרים מעולם הגיוס והניהול
+            </p>
           </div>
 
           <div className="grid md:grid-cols-3 gap-8 mb-10">
-            <Card className="p-8 hover:shadow-xl transition-all duration-300 hover:-translate-y-2">
+            <Card className="group overflow-hidden hover:shadow-2xl transition-all duration-500 hover:-translate-y-3 border-2 hover:border-primary/20">
               <a 
                 href="https://www.workaroundnow.com/post/%D7%94%D7%97%D7%9C%D7%98%D7%95%D7%AA%D7%A7%D7%9C%D7%95%D7%AA-%D7%94%D7%92%D7%95%D7%A8%D7%9D%D7%94%D7%9E%D7%A4%D7%AA%D7%99%D7%A2%D7%9C%D7%98%D7%A2%D7%95%D7%99%D7%95%D7%95%D7%AA%D7%92%D7%99%D7%95%D7%A1"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block"
               >
-                <h3 className="text-xl font-bold mb-3">החלטות קלות – הגורם המפתיע לטעויות גיוס</h3>
-                <p className="text-muted-foreground">איך החלטות אוטומטיות משפיעות על איכות הגיוס שלנו</p>
+                <div className="h-48 bg-gradient-to-br from-secondary/20 to-accent/20 flex items-center justify-center group-hover:from-secondary/30 group-hover:to-accent/30 transition-all duration-500">
+                  <FileText className="w-16 h-16 text-secondary" />
+                </div>
+                <div className="p-6">
+                  <div className="flex items-center gap-2 text-sm text-muted-foreground mb-3">
+                    <Calendar className="w-4 h-4" />
+                    <span>מאמר</span>
+                  </div>
+                  <h3 className="text-xl font-bold mb-3 group-hover:text-primary transition-colors duration-300">
+                    החלטות קלות – הגורם המפתיע לטעויות גיוס
+                  </h3>
+                  <p className="text-muted-foreground leading-relaxed">
+                    איך החלטות אוטומטיות משפיעות על איכות הגיוס שלנו
+                  </p>
+                  <div className="mt-4 flex items-center text-primary font-medium group-hover:gap-2 transition-all duration-300">
+                    <span>קרא עוד</span>
+                    <ArrowLeft className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+                  </div>
+                </div>
               </a>
             </Card>
 
-            <Card className="p-8 hover:shadow-xl transition-all duration-300 hover:-translate-y-2">
+            <Card className="group overflow-hidden hover:shadow-2xl transition-all duration-500 hover:-translate-y-3 border-2 hover:border-primary/20">
               <a 
                 href="https://www.workaroundnow.com/post/%D7%90%D7%9E%D7%A8%D7%95-%D7%9C%D7%99-%D7%96%D7%94-%D7%91%D7%A1%D7%93%D7%A8-%D7%A9%D7%97%D7%A6%D7%99-%D7%9C%D7%90-%D7%99%D7%AA%D7%90%D7%99%D7%9E%D7%95-%D7%96%D7%94-%D7%97%D7%9C%D7%A7-%D7%9E%D7%94%D7%9E%D7%A9%D7%97%D7%A7-%D7%A8%D7%A7-%D7%A9%D7%96%D7%94-%D7%9C%D7%90-%D7%9E%D7%A9%D7%97%D7%A7-%D7%A1%D7%99%D7%A4%D7%95%D7%A8-%D7%90%D7%9E%D7%99%D7%AA%D7%99-%D7%A9%D7%A7%D7%A8%D7%94-%D7%91%D7%90%D7%9E%D7%AA"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block"
               >
-                <h3 className="text-xl font-bold mb-3">"זה בסדר שחצי לא יתאימו" – למה זה לא בסדר</h3>
-                <p className="text-muted-foreground">למה גישה של "זה חלק מהמשחק" עלולה לעלות יקר לארגון</p>
+                <div className="h-48 bg-gradient-to-br from-primary/20 to-secondary/20 flex items-center justify-center group-hover:from-primary/30 group-hover:to-secondary/30 transition-all duration-500">
+                  <AlertCircle className="w-16 h-16 text-primary" />
+                </div>
+                <div className="p-6">
+                  <div className="flex items-center gap-2 text-sm text-muted-foreground mb-3">
+                    <Calendar className="w-4 h-4" />
+                    <span>מאמר</span>
+                  </div>
+                  <h3 className="text-xl font-bold mb-3 group-hover:text-primary transition-colors duration-300">
+                    "זה בסדר שחצי לא יתאימו" – למה זה לא בסדר
+                  </h3>
+                  <p className="text-muted-foreground leading-relaxed">
+                    למה גישה של "זה חלק מהמשחק" עלולה לעלות יקר לארגון
+                  </p>
+                  <div className="mt-4 flex items-center text-primary font-medium group-hover:gap-2 transition-all duration-300">
+                    <span>קרא עוד</span>
+                    <ArrowLeft className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+                  </div>
+                </div>
               </a>
             </Card>
 
-            <Card className="p-8 hover:shadow-xl transition-all duration-300 hover:-translate-y-2">
+            <Card className="group overflow-hidden hover:shadow-2xl transition-all duration-500 hover:-translate-y-3 border-2 hover:border-primary/20">
               <a 
                 href="https://www.workaroundnow.com/post/%D7%91%D7%99%D7%96%D7%A0%D7%A1-%D7%A4%D7%A8%D7%98%D7%A0%D7%A8-%D7%94%D7%90%D7%95%D7%AA%D7%99%D7%95%D7%AA-%D7%94%D7%A7%D7%98%D7%A0%D7%95%D7%AA"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block"
               >
-                <h3 className="text-xl font-bold mb-3">ביזנס פרטנר – האותיות הקטנות</h3>
-                <p className="text-muted-foreground">מה באמת נדרש כדי להיות שותף עסקי אמיתי בארגון</p>
+                <div className="h-48 bg-gradient-to-br from-accent/20 to-primary/20 flex items-center justify-center group-hover:from-accent/30 group-hover:to-primary/30 transition-all duration-500">
+                  <Users className="w-16 h-16 text-accent" />
+                </div>
+                <div className="p-6">
+                  <div className="flex items-center gap-2 text-sm text-muted-foreground mb-3">
+                    <Calendar className="w-4 h-4" />
+                    <span>מאמר</span>
+                  </div>
+                  <h3 className="text-xl font-bold mb-3 group-hover:text-primary transition-colors duration-300">
+                    ביזנס פרטנר – האותיות הקטנות
+                  </h3>
+                  <p className="text-muted-foreground leading-relaxed">
+                    מה באמת נדרש כדי להיות שותף עסקי אמיתי בארגון
+                  </p>
+                  <div className="mt-4 flex items-center text-primary font-medium group-hover:gap-2 transition-all duration-300">
+                    <span>קרא עוד</span>
+                    <ArrowLeft className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+                  </div>
+                </div>
               </a>
             </Card>
           </div>
