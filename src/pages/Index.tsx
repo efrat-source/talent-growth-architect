@@ -449,16 +449,16 @@ const Index = () => {
               </div>
             </Card>
 
-            {/* Testimonial 6 */}
+            {/* Real Testimonial 6 - Ayelet Heiferman */}
             <Card className="p-8 hover:shadow-xl transition-all duration-300 relative">
               <Quote className="w-12 h-12 text-secondary/20 absolute top-6 right-6" />
               <div className="relative z-10">
                 <p className="text-foreground text-lg leading-relaxed mb-6 italic">
-                  "יהוד לא רק מגייסת מצוינת, היא גם מורה מעולה. הצוות שלי למד ממנה כלים וטכניקות שהם משתמשים בהם כל יום. היא שינתה את התרבות הארגונית שלנו סביב גיוס."
+                  "About two years ago, we experienced a major hiring peak alongside a significant expansion of our recruitment team – growing from 3 to 15 people! During this time, Efrat provided me with invaluable guidance and support around building recruitment infrastructure, defining strategy, and making key decisions. Our weekly work sessions were not only insightful, but also practical – I learned a lot and was able to apply many of the best practices she shared into our recruitment processes. It was always a pleasure meeting with Efrat – she brings deep expertise, fresh perspectives, and real innovation to the world of recruitment. Thank you so much, Dear Efrat! Would love working with you again!"
                 </p>
                 <div className="border-t pt-4">
-                  <p className="font-bold text-foreground">נועה אברהם</p>
-                  <p className="text-sm text-muted-foreground">מנהלת משאבי אנוש, חברת קמעונאות</p>
+                  <p className="font-bold text-foreground">Ayelet Heiferman</p>
+                  <p className="text-sm text-muted-foreground">⭐⭐⭐⭐⭐ ביקורת Google</p>
                 </div>
               </div>
             </Card>
