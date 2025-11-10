@@ -136,13 +136,13 @@ const Index = () => {
                 גיוס הוא שילוב מדויק של סקרנות, הבנה אנושית וחשיבה עסקית – ואני זכיתי לגדול בו וללוות ארגונים מהשלב הראשון ועד צמיחה גלובלית.
               </p>
             </div>
-            <div className="order-1 md:order-2 flex justify-center">
-              <div className="relative">
+            <div className="order-1 md:order-2 flex items-center justify-center">
+              <div className="relative mx-auto">
                 <div className="absolute -inset-4 bg-gradient-to-r from-accent to-secondary rounded-full blur-2xl opacity-20" />
                 <img 
                   src={consultantPortrait} 
                   alt="תמונת פרופיל"
-                  className="relative rounded-full w-80 h-80 object-cover shadow-2xl border-4 border-white"
+                  className="relative rounded-full w-80 h-80 object-cover shadow-2xl border-4 border-white mx-auto"
                 />
               </div>
             </div>
