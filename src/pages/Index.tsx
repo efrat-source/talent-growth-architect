@@ -346,39 +346,8 @@ const Index = () => {
                   </li>
                 </ul>
                 
-                <div className="text-sm text-secondary font-medium mb-6">
+                <div className="text-sm text-secondary font-medium">
                   ⏱️ סדנת עומק | מתאים למנהלים וצוותי גיוס
-                </div>
-                
-                <div className="flex flex-col sm:flex-row gap-3">
-                  <Button 
-                    variant="default" 
-                    className="flex-1"
-                    asChild
-                  >
-                    <a 
-                      href="https://wa.me/972555001909?text=היי, אשמח לשמוע עוד על סדנת הראיונות בעידן הבינה המלאכותית" 
-                      target="_blank" 
-                      rel="noopener noreferrer"
-                    >
-                      בואו נדבר על הסדנה
-                    </a>
-                  </Button>
-                  <Button 
-                    variant="outline" 
-                    className="flex-1"
-                    asChild
-                  >
-                    <a 
-                      href="#contact" 
-                      onClick={(e) => {
-                        e.preventDefault();
-                        document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' });
-                      }}
-                    >
-                      מלא טופס
-                    </a>
-                  </Button>
                 </div>
               </div>
             </Card>
@@ -422,8 +391,20 @@ const Index = () => {
           </div>
 
           <div className="text-center mt-12">
-            <Button variant="hero" size="xl">
-              בואו נדבר על הסדנה המתאימה לכם
+            <Button 
+              variant="default" 
+              size="xl"
+              asChild
+            >
+              <a 
+                href="#contact" 
+                onClick={(e) => {
+                  e.preventDefault();
+                  document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' });
+                }}
+              >
+                מלא טופס לפרטים נוספים על הסדנאות
+              </a>
             </Button>
           </div>
         </div>
