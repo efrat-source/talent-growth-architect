@@ -118,7 +118,9 @@ const Index = () => {
             <Button variant="secondary" size="lg" asChild>
               <a href="https://www.workaroundnow.com/%D7%A7%D7%95%D7%A8%D7%A1%D7%99%D7%9D" target="_blank" rel="noopener noreferrer">קורסים</a>
             </Button>
-            <Button variant="secondary" size="lg">סדנאות</Button>
+            <Button variant="secondary" size="lg" asChild>
+              <a href="https://www.workaroundnow.com/copy-of-%D7%A1%D7%93%D7%A0%D7%90%D7%95%D7%AA" target="_blank" rel="noopener noreferrer">סדנאות</a>
+            </Button>
             <Button variant="secondary" size="lg">ליווי וייעוץ</Button>
             <Button variant="secondary" size="lg">איתור בכירים</Button>
           </div>
