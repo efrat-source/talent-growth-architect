@@ -260,7 +260,7 @@ const Index = () => {
                   <Brain className="w-8 h-8 text-accent" />
                 </div>
                 <div className="flex-1 min-w-0">
-                  <h3 className="text-2xl font-bold mb-2 break-words">גיוס לעידן הבינה המלאכותית</h3>
+                  <h3 className="text-2xl font-bold mb-2 break-words">גיוס לעידן הבינה</h3>
                 </div>
               </div>
               
