@@ -46,8 +46,10 @@ const Index = () => {
             <p className="text-lg md:text-xl mb-10 text-muted-foreground font-light">
               Workaround – כי גיוס חכם משנה את פני הארגון
             </p>
-            <Button variant="default" size="xl" className="font-semibold shadow-xl">
-              בואו נגייס יחד
+            <Button variant="default" size="xl" className="font-semibold shadow-xl" asChild>
+              <a href="https://wa.me/972555001909" target="_blank" rel="noopener noreferrer">
+                בואו נגייס יחד
+              </a>
             </Button>
           </div>
         </div>
@@ -704,8 +706,10 @@ const Index = () => {
         <div className="container mx-auto max-w-6xl text-center">
           <h3 className="text-2xl font-bold mb-4">Workaround</h3>
           <p className="text-muted-foreground mb-6">גיוס חכם משנה את פני הארגון</p>
-          <Button variant="accent" size="lg">
-            בואו נדבר
+          <Button variant="accent" size="lg" asChild>
+            <a href="https://wa.me/972555001909" target="_blank" rel="noopener noreferrer">
+              בואו נדבר
+            </a>
           </Button>
         </div>
       </footer>
