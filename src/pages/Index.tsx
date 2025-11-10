@@ -185,10 +185,22 @@ const Index = () => {
               <Card className="p-6 hover:shadow-lg transition-all duration-300">
                 <div className="flex items-center gap-4 mb-4">
                   <img src={lyftLogo} alt="Lyft" className="h-7 object-contain" />
-                  <span className="text-muted-foreground">&</span>
+                </div>
+                <h3 className="text-2xl font-bold mb-2">Lyft</h3>
+                <p className="text-muted-foreground mb-3">ראש פונקציות גיוס גלובליות</p>
+                <p className="text-foreground">ניהול צוותים חוצי-יבשות ובניית תשתיות גיוס לארגונים בצמיחה מואצת</p>
+              </Card>
+            </div>
+
+            <div className="relative">
+              <div className="absolute -right-[3.25rem] top-2 w-10 h-10 rounded-full bg-white flex items-center justify-center shadow-lg p-1">
+                <img src={nextInsuranceLogo} alt="Next Insurance" className="w-full h-full object-contain" />
+              </div>
+              <Card className="p-6 hover:shadow-lg transition-all duration-300">
+                <div className="flex items-center gap-4 mb-4">
                   <img src={nextInsuranceLogo} alt="Next Insurance" className="h-7 object-contain" />
                 </div>
-                <h3 className="text-2xl font-bold mb-2">Lyft & Next Insurance</h3>
+                <h3 className="text-2xl font-bold mb-2">Next Insurance</h3>
                 <p className="text-muted-foreground mb-3">ראש פונקציות גיוס גלובליות</p>
                 <p className="text-foreground">ניהול צוותים חוצי-יבשות ובניית תשתיות גיוס לארגונים בצמיחה מואצת</p>
               </Card>
