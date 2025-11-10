@@ -187,7 +187,7 @@ const Index = () => {
                   <img src={lyftLogo} alt="Lyft" className="h-7 object-contain" />
                 </div>
                 <h3 className="text-2xl font-bold mb-2">Lyft</h3>
-                <p className="text-muted-foreground mb-3">ראש פונקציות גיוס גלובליות</p>
+                <p className="text-muted-foreground mb-3">ראש פונקציות גיוס גלובליות | חטיבת הרכבים האוטונומיים</p>
                 <p className="text-foreground">ניהול צוותים חוצי-יבשות ובניית תשתיות גיוס לארגונים בצמיחה מואצת</p>
               </Card>
             </div>
