@@ -524,8 +524,20 @@ const Index = () => {
           </div>
 
           <div className="text-center mt-12">
-            <Button variant="hero" size="xl">
-              בואו נדבר על הקורס המתאים לכם
+            <Button 
+              variant="default" 
+              size="xl"
+              asChild
+            >
+              <a 
+                href="#contact" 
+                onClick={(e) => {
+                  e.preventDefault();
+                  document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' });
+                }}
+              >
+                מלא טופס לפרטים נוספים על הקורסים
+              </a>
             </Button>
           </div>
         </div>
