@@ -435,16 +435,16 @@ const Index = () => {
               </div>
             </Card>
 
-            {/* Testimonial 5 */}
+            {/* Real Testimonial 5 - Mor Basson Toren */}
             <Card className="p-8 hover:shadow-xl transition-all duration-300 relative">
               <Quote className="w-12 h-12 text-accent/20 absolute top-6 right-6" />
               <div className="relative z-10">
                 <p className="text-foreground text-lg leading-relaxed mb-6 italic">
-                  "הייעוץ של יהוד עזר לנו לבנות אסטרטגיית גיוס מאפס. היא הבינה את הצרכים העסקיים שלנו והצליחה לתרגם אותם לתהליכים פרקטיים שעובדים."
+                  "שמחתי מאוד לעבוד עם אפרת ולקבל ממנה מספר שירותים, לרבות קואוצ'ינג עם כניסה לתפקיד מנהלת גיוס הכולל בניית אסטרטגיה וליווי שוטף, השמת בכירים וקורס ראיונות התנהגותיים. אפרת בעלת ניסיון רב, שירותית ביותר ומקצועית. ממליצה בחום!"
                 </p>
                 <div className="border-t pt-4">
-                  <p className="font-bold text-foreground">אורי גולן</p>
-                  <p className="text-sm text-muted-foreground">מנכ"ל, חברת ייעוץ</p>
+                  <p className="font-bold text-foreground">מור בסון תורן</p>
+                  <p className="text-sm text-muted-foreground">⭐⭐⭐⭐⭐ ביקורת Google</p>
                 </div>
               </div>
             </Card>
