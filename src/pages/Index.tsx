@@ -379,16 +379,16 @@ const Index = () => {
           </div>
 
           <div className="grid md:grid-cols-3 gap-8">
-            {/* Testimonial 1 */}
+            {/* Real Testimonial 1 - Yuval Tadmor */}
             <Card className="p-8 hover:shadow-xl transition-all duration-300 relative">
               <Quote className="w-12 h-12 text-accent/20 absolute top-6 right-6" />
               <div className="relative z-10">
                 <p className="text-foreground text-lg leading-relaxed mb-6 italic">
-                  "יהוד לקחה את צוות הגיוס שלנו למקום אחר לגמרי. הצליחה לשלב בין מקצועיות גבוהה לבין הבנה עמוקה של האתגרים שלנו כסטארטאפ בצמיחה. התוצאות היו מיידיות."
+                  "עבדתי עם אפרת על ניהול ותהליכי עבודה, ואני ממליץ עליה בחום. היא מקצועית, ממוקדת ומצליחה להעביר ידע בצורה ברורה ומובנת. במהלך המפגשים היא עזרה לי לעשות סדר בראש, נתנה הדרכה מצוינת ושיתפה דוגמאות מהחיים שישועו לי להתמודד עם סיטואציות שונות ולמצוא להן פתרונות. תודה רבה על הליווי והתמיכה!"
                 </p>
                 <div className="border-t pt-4">
-                  <p className="font-bold text-foreground">עדי שמש</p>
-                  <p className="text-sm text-muted-foreground">מנהלת משאבי אנוש, חברת טכנולוגיה</p>
+                  <p className="font-bold text-foreground">Yuval Tadmor</p>
+                  <p className="text-sm text-muted-foreground">⭐⭐⭐⭐⭐ ביקורת Google</p>
                 </div>
               </div>
             </Card>
