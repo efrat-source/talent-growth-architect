@@ -115,7 +115,9 @@ const Index = () => {
           </div>
 
           <div className="flex flex-wrap gap-4 justify-center">
-            <Button variant="secondary" size="lg">קורסים</Button>
+            <Button variant="secondary" size="lg" asChild>
+              <a href="https://www.workaroundnow.com/%D7%A7%D7%95%D7%A8%D7%A1%D7%99%D7%9D" target="_blank" rel="noopener noreferrer">קורסים</a>
+            </Button>
             <Button variant="secondary" size="lg">סדנאות</Button>
             <Button variant="secondary" size="lg">ליווי וייעוץ</Button>
             <Button variant="secondary" size="lg">איתור בכירים</Button>
