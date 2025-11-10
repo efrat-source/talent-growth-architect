@@ -12,7 +12,8 @@ import {
   Brain,
   Handshake,
   Award,
-  Quote
+  Quote,
+  Code
 } from "lucide-react";
 import consultantPortrait from "@/assets/consultant-portrait.jpg";
 import googleLogo from "@/assets/google-logo.png";
@@ -431,10 +432,10 @@ const Index = () => {
             <Card className="p-8 hover:shadow-xl transition-all duration-300 border-2 hover:border-accent/30">
               <div className="flex items-start gap-4 mb-6">
                 <div className="p-3 rounded-lg bg-accent/10">
-                  <GraduationCap className="w-8 h-8 text-accent" />
+                  <Code className="w-8 h-8 text-accent" />
                 </div>
                 <div className="flex-1">
-                  <h3 className="text-2xl font-bold mb-2">קורס יסודות הגיוס המקצועי</h3>
+                  <h3 className="text-2xl font-bold mb-2">קורס גיוס טכנולוגי</h3>
                   <div className="flex items-center gap-4 text-sm text-muted-foreground mb-4">
                     <span className="flex items-center gap-1">
                       <Target className="w-4 h-4" />
@@ -446,8 +447,8 @@ const Index = () => {
               </div>
               
               <p className="text-muted-foreground mb-6 leading-relaxed">
-                קורס מקיף המיועד למגייסים חדשים או לאנשי HR שרוצים לשדרג את הידע בתחום. 
-                הקורס משלב תיאוריה מתקדמת עם תרגול מעשי ומקרי מבחן אמיתיים.
+                קורס מקיף המיועד למגייסים בתחום הטכנולוגי. 
+                הקורס מעניק כלים מעשיים להבנת התפקידים הטכנולוגיים, שיטות איתור ואיך לנהל שיחה אפקטיבית עם מועמדים טכנולוגיים.
               </p>
 
               <div className="border-t pt-6">
@@ -458,23 +459,23 @@ const Index = () => {
                 <ul className="space-y-2 text-foreground mb-6">
                   <li className="flex items-start gap-2">
                     <span className="text-accent mt-1">•</span>
-                    <span>בניית אסטרטגיית גיוס מותאמת לארגון</span>
+                    <span>הבנת התפקידים הטכנולוגיים והסקטור</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="text-accent mt-1">•</span>
-                    <span>שיטות איתור וסקרינינג מועמדים יעילות</span>
+                    <span>שיטות חיפוש ואיתור מועמדים טכנולוגיים</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="text-accent mt-1">•</span>
-                    <span>עריכת ראיונות מובנים ומבוססי התנהגות</span>
+                    <span>ניהול שיחת סקרינינג עם מועמדים טכנולוגיים</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="text-accent mt-1">•</span>
-                    <span>קבלת החלטות גיוס מבוססת נתונים</span>
+                    <span>בניית קשרים עם מועמדים בתחום הטכנולוגי</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="text-accent mt-1">•</span>
-                    <span>שיפור חווית המועמד לאורך התהליך</span>
+                    <span>כלי AI לגיוס טכנולוגי יעיל</span>
                   </li>
                 </ul>
               </div>
