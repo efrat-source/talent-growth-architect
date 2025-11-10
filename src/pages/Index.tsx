@@ -164,7 +164,7 @@ const Index = () => {
                 <ul className="text-foreground space-y-2 list-disc list-inside">
                   <li>הובילה גיוס עבור חלק מאתרי גוגל ב-EMEA</li>
                   <li>הובילה את הגיוס ל-WAZE מאז הרכישה ב-2013</li>
-                  <li>מנהלת גיוס כישרונות גלובלית במטה גוגל ב-MTV, קליפורניה</li>
+                  <li>מנהלת גיוס גלובלית במטה גוגל ב-MTV, קליפורניה</li>
                 </ul>
               </Card>
             </div>
