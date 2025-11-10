@@ -160,11 +160,11 @@ const Index = () => {
                   <img src={googleLogo} alt="Google" className="h-8 object-contain" />
                 </div>
                 <h3 className="text-2xl font-bold mb-2">Google</h3>
-                <p className="text-muted-foreground mb-3">Founded Google's R&D team in Israel. Headed The Talent Acquisition Team.</p>
+                <p className="text-muted-foreground mb-3">ייסדה את צוות המו"פ של גוגל בישראל. עמדה בראש צוות הגיוס.</p>
                 <ul className="text-foreground space-y-2 list-disc list-inside">
-                  <li>Led Recruiting for some of Google sites in EMEA</li>
-                  <li>Led WAZE hiring since the acquisition in 2013</li>
-                  <li>Global Talent Acquisition Leader in Google Headquarters in MTV, CA.</li>
+                  <li>הובילה גיוס עבור חלק מאתרי גוגל ב-EMEA</li>
+                  <li>הובילה את הגיוס ל-WAZE מאז הרכישה ב-2013</li>
+                  <li>מנהלת גיוס כישרונות גלובלית במטה גוגל ב-MTV, קליפורניה</li>
                 </ul>
               </Card>
             </div>
