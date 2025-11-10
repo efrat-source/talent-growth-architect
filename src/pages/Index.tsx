@@ -121,8 +121,12 @@ const Index = () => {
             <Button variant="secondary" size="lg" asChild>
               <a href="https://www.workaroundnow.com/copy-of-%D7%A1%D7%93%D7%A0%D7%90%D7%95%D7%AA" target="_blank" rel="noopener noreferrer">סדנאות</a>
             </Button>
-            <Button variant="secondary" size="lg">ליווי וייעוץ</Button>
-            <Button variant="secondary" size="lg">איתור בכירים</Button>
+            <Button variant="secondary" size="lg" asChild>
+              <a href="https://www.workaroundnow.com/%D7%9C%D7%99%D7%95%D7%95%D7%99-%D7%95%D7%99%D7%99%D7%A2%D7%95%D7%A5" target="_blank" rel="noopener noreferrer">ליווי וייעוץ</a>
+            </Button>
+            <Button variant="secondary" size="lg" asChild>
+              <a href="https://www.workaroundnow.com/%D7%90%D7%99%D7%AA%D7%95%D7%A8-%D7%91%D7%9B%D7%99%D7%A8%D7%99%D7%9D" target="_blank" rel="noopener noreferrer">איתור בכירים</a>
+            </Button>
           </div>
         </div>
       </section>
@@ -255,8 +259,8 @@ const Index = () => {
                 <div className="p-3 rounded-lg bg-accent/10">
                   <Brain className="w-8 h-8 text-accent" />
                 </div>
-                <div className="flex-1">
-                  <h3 className="text-2xl font-bold mb-2">גיוס לעידן הבינה המלאכותית</h3>
+                <div className="flex-1 min-w-0">
+                  <h3 className="text-2xl font-bold mb-2 break-words">גיוס לעידן הבינה המלאכותית</h3>
                 </div>
               </div>
               
