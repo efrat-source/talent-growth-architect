@@ -746,12 +746,41 @@ const Index = () => {
           </div>
 
           <Card className="p-8 md:p-12">
-            <form className="space-y-6">
+            <form onSubmit={(e) => {
+              e.preventDefault();
+              const formData = new FormData(e.currentTarget);
+              const name = formData.get('name') as string;
+              const phone = formData.get('phone') as string;
+              const email = formData.get('email') as string;
+              const service = formData.get('service') as string;
+              const message = formData.get('message') as string;
+              
+              const serviceNames: Record<string, string> = {
+                'workshops': 'סדנאות',
+                'courses': 'קורסים',
+                'consulting': 'ייעוץ וליווי',
+                'executive-search': 'איתור בכירים',
+                'other': 'אחר'
+              };
+              
+              let whatsappMessage = `שלום, אני מעוניין/ת ביצירת קשר\n\n`;
+              whatsappMessage += `שם: ${name}\n`;
+              whatsappMessage += `טלפון: ${phone}\n`;
+              whatsappMessage += `אימייל: ${email}\n`;
+              whatsappMessage += `שירות: ${serviceNames[service] || service}\n`;
+              if (message) {
+                whatsappMessage += `\nהודעה: ${message}`;
+              }
+              
+              const encodedMessage = encodeURIComponent(whatsappMessage);
+              window.open(`https://wa.me/972555001909?text=${encodedMessage}`, '_blank');
+            }} className="space-y-6">
               <div className="grid md:grid-cols-2 gap-6">
                 <div className="space-y-2">
                   <label htmlFor="name" className="text-sm font-medium">שם מלא *</label>
                   <input
                     id="name"
+                    name="name"
                     type="text"
                     required
                     className="w-full px-4 py-3 rounded-lg border border-border bg-background focus:outline-none focus:ring-2 focus:ring-accent"
@@ -762,6 +791,7 @@ const Index = () => {
                   <label htmlFor="phone" className="text-sm font-medium">טלפון *</label>
                   <input
                     id="phone"
+                    name="phone"
                     type="tel"
                     required
                     className="w-full px-4 py-3 rounded-lg border border-border bg-background focus:outline-none focus:ring-2 focus:ring-accent"
@@ -774,6 +804,7 @@ const Index = () => {
                 <label htmlFor="email" className="text-sm font-medium">אימייל *</label>
                 <input
                   id="email"
+                  name="email"
                   type="email"
                   required
                   className="w-full px-4 py-3 rounded-lg border border-border bg-background focus:outline-none focus:ring-2 focus:ring-accent"
@@ -785,6 +816,7 @@ const Index = () => {
                 <label htmlFor="service" className="text-sm font-medium">בחר שירות *</label>
                 <select
                   id="service"
+                  name="service"
                   required
                   className="w-full px-4 py-3 rounded-lg border border-border bg-background focus:outline-none focus:ring-2 focus:ring-accent"
                 >
@@ -801,6 +833,7 @@ const Index = () => {
                 <label htmlFor="message" className="text-sm font-medium">הודעה</label>
                 <textarea
                   id="message"
+                  name="message"
                   rows={5}
                   className="w-full px-4 py-3 rounded-lg border border-border bg-background focus:outline-none focus:ring-2 focus:ring-accent resize-none"
                   placeholder="ספר לנו קצת על הצורך שלך..."
