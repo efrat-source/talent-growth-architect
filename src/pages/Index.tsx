@@ -735,6 +735,88 @@ const Index = () => {
         </div>
       </section>
 
+      {/* Contact Form Section */}
+      <section id="contact" className="py-20 px-6 bg-muted/30">
+        <div className="container mx-auto max-w-4xl">
+          <div className="text-center mb-12">
+            <h2 className="text-4xl md:text-5xl font-bold mb-6">יצירת קשר</h2>
+            <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+              מעוניינים בקורס, סדנה או ייעוץ? השאירו פרטים ואחזור אליכם בהקדם
+            </p>
+          </div>
+
+          <Card className="p-8 md:p-12">
+            <form className="space-y-6">
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="space-y-2">
+                  <label htmlFor="name" className="text-sm font-medium">שם מלא *</label>
+                  <input
+                    id="name"
+                    type="text"
+                    required
+                    className="w-full px-4 py-3 rounded-lg border border-border bg-background focus:outline-none focus:ring-2 focus:ring-accent"
+                    placeholder="הזן שם מלא"
+                  />
+                </div>
+                <div className="space-y-2">
+                  <label htmlFor="phone" className="text-sm font-medium">טלפון *</label>
+                  <input
+                    id="phone"
+                    type="tel"
+                    required
+                    className="w-full px-4 py-3 rounded-lg border border-border bg-background focus:outline-none focus:ring-2 focus:ring-accent"
+                    placeholder="הזן מספר טלפון"
+                  />
+                </div>
+              </div>
+
+              <div className="space-y-2">
+                <label htmlFor="email" className="text-sm font-medium">אימייל *</label>
+                <input
+                  id="email"
+                  type="email"
+                  required
+                  className="w-full px-4 py-3 rounded-lg border border-border bg-background focus:outline-none focus:ring-2 focus:ring-accent"
+                  placeholder="הזן כתובת אימייל"
+                />
+              </div>
+
+              <div className="space-y-2">
+                <label htmlFor="service" className="text-sm font-medium">בחר שירות *</label>
+                <select
+                  id="service"
+                  required
+                  className="w-full px-4 py-3 rounded-lg border border-border bg-background focus:outline-none focus:ring-2 focus:ring-accent"
+                >
+                  <option value="">בחר שירות</option>
+                  <option value="workshops">סדנאות</option>
+                  <option value="courses">קורסים</option>
+                  <option value="consulting">ייעוץ וליווי</option>
+                  <option value="executive-search">איתור בכירים</option>
+                  <option value="other">אחר</option>
+                </select>
+              </div>
+
+              <div className="space-y-2">
+                <label htmlFor="message" className="text-sm font-medium">הודעה</label>
+                <textarea
+                  id="message"
+                  rows={5}
+                  className="w-full px-4 py-3 rounded-lg border border-border bg-background focus:outline-none focus:ring-2 focus:ring-accent resize-none"
+                  placeholder="ספר לנו קצת על הצורך שלך..."
+                />
+              </div>
+
+              <div className="flex items-center justify-center pt-4">
+                <Button type="submit" variant="default" size="xl" className="font-semibold">
+                  שלח פנייה
+                </Button>
+              </div>
+            </form>
+          </Card>
+        </div>
+      </section>
+
       {/* Blog Section */}
       <section className="py-20 px-6 bg-gradient-to-b from-background to-muted/20">
         <div className="container mx-auto max-w-6xl">
