@@ -229,7 +229,7 @@ const Index = () => {
       <section className="py-20 px-6 bg-background">
         <div className="container mx-auto max-w-6xl">
           <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
-            <div className="order-2 md:order-1">
+            <div className="order-2 md:order-1 text-center md:text-right">
               <h2 className="text-4xl md:text-5xl font-bold mb-6">הסיפור שלי</h2>
               <p className="text-lg text-muted-foreground leading-relaxed mb-6">
                 לא תמיד ידעתי שאעבוד בגיוס. למדתי פסיכולוגיה, והגעתי לתחום במקרה – אבל מהר מאוד הבנתי שמצאתי את המקום שלי.
