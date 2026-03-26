@@ -165,8 +165,8 @@ const Index = () => {
                   <Lightbulb className="w-6 h-6 text-accent" />
                 </div>
                 <div className="flex-1">
-                  <h3 className="text-xl font-bold mb-2">ייעוץ בנושאי גיוס ואסטרטגיית גיוס</h3>
-                  <p className="text-muted-foreground">פיצוח אתגרי גיוס ובניית תהליכים יעילים</p>
+                  <h3 className="text-xl font-bold mb-2">חיזוק מנהלים וצוותי גיוס</h3>
+                  <p className="text-muted-foreground">לשיפור איכות ההחלטות על אנשים — דרך כלים, מבנה ותהליכי עבודה ברורים</p>
                 </div>
               </div>
             </Card>
