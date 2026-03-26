@@ -29,7 +29,7 @@ const LogoCarousel = () => {
         <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 gap-8 items-center justify-items-center">
           {logos.map((logo, i) => (
             <div key={i} className="flex items-center justify-center hover:scale-110 transition-all duration-300 h-10">
-              <span className="text-base font-bold whitespace-nowrap text-foreground">{logo.text}</span>
+              <span className="text-base font-bold whitespace-nowrap text-muted-foreground">{logo.text}</span>
             </div>
           ))}
         </div>
