@@ -6,14 +6,14 @@ const logos = [
   { src: googleLogo, alt: "Google" },
   { src: lyftLogo, alt: "Lyft" },
   { src: nextInsuranceLogo, alt: "Next Insurance" },
-  { text: "Gong.io" },
-  { text: "Lightricks" },
-  { text: "Cloudinary" },
-  { text: "Monday" },
-  { text: "Intuit" },
-  { text: "Checkpoint" },
-  { text: "Hello Heart" },
-  { text: "Gilat" },
+  { text: "Gong.io", color: "hsl(270, 60%, 55%)" },
+  { text: "Lightricks", color: "hsl(340, 75%, 55%)" },
+  { text: "Cloudinary", color: "hsl(210, 70%, 50%)" },
+  { text: "Monday", color: "hsl(150, 65%, 40%)" },
+  { text: "Intuit", color: "hsl(160, 55%, 40%)" },
+  { text: "Checkpoint", color: "hsl(350, 70%, 50%)" },
+  { text: "Hello Heart", color: "hsl(0, 65%, 55%)" },
+  { text: "Gilat", color: "hsl(210, 60%, 45%)" },
 ];
 
 const LogoCarousel = () => {
@@ -25,11 +25,11 @@ const LogoCarousel = () => {
         </p>
         <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 gap-8 items-center justify-items-center">
           {logos.map((logo, i) => (
-            <div key={i} className="flex items-center justify-center opacity-60 hover:opacity-100 transition-opacity duration-300 h-10">
+            <div key={i} className="flex items-center justify-center hover:scale-110 transition-all duration-300 h-10">
               {'src' in logo ? (
                 <img src={logo.src} alt={logo.alt} className="h-8 object-contain" loading="lazy" />
               ) : (
-                <span className="text-base font-bold text-muted-foreground whitespace-nowrap">{logo.text}</span>
+                <span className="text-base font-bold whitespace-nowrap" style={{ color: logo.color }}>{logo.text}</span>
               )}
             </div>
           ))}
