@@ -131,7 +131,7 @@ const Index = () => {
             <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight text-foreground">
                גיוס הוא לא רק תהליך
                <br />
-               הוא החלטה.
+               הוא החלטה
              </h1>
             <p className="text-xl md:text-2xl mb-4 text-muted-foreground leading-relaxed">
                אנחנו עוזרים לארגונים לבנות גיוס מדויק מבוסס דאטה ובינה
