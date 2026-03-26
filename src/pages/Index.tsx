@@ -663,7 +663,7 @@ const Index = () => {
                 </p>
                 <div className="border-t pt-4">
                   <p className="font-bold text-foreground">Yuval Tadmor</p>
-                  <p className="text-sm text-muted-foreground">⭐⭐⭐⭐⭐ ביקורת Google</p>
+                  <p className="text-sm text-muted-foreground">Senior Manager, Site Operations at Hello Heart</p>
                 </div>
               </div>
             </Card>
