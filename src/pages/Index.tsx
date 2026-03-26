@@ -705,7 +705,7 @@ const Index = () => {
                 </p>
                 <div className="border-t pt-4">
                   <p className="font-bold text-foreground">אילנה רויטמן-אלוני</p>
-                  <p className="text-sm text-muted-foreground">⭐⭐⭐⭐⭐ ביקורת Google</p>
+                  <p className="text-sm text-muted-foreground">מנהלת גיוס, גילת</p>
                 </div>
               </div>
             </Card>
