@@ -190,7 +190,7 @@ const Index = () => {
                 </div>
                 <div className="flex-1">
                   <h3 className="text-xl font-bold mb-2">קורסים, הדרכות והרצאות</h3>
-                  <p className="text-muted-foreground">העברת ידע ושיטות עבודה מתקדמות</p>
+                  <p className="text-muted-foreground">הכשרת מנהלים ומגייסים לקבל החלטות גיוס טובות יותר, באמצעות כלים פרקטיים, דאטה ומתודולוגיות מוכחות</p>
                 </div>
               </div>
             </Card>
