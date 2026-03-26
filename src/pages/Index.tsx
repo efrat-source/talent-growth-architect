@@ -177,8 +177,8 @@ const Index = () => {
                   <Users className="w-6 h-6 text-secondary" />
                 </div>
                 <div className="flex-1">
-                  <h3 className="text-xl font-bold mb-2">ליווי מנהלי ומחלקות גיוס</h3>
-                  <p className="text-muted-foreground">חיזוק צוותים ופיתוח מקצועי מתמיד</p>
+                  <h3 className="text-xl font-bold mb-2">ליווי מנהלים וצוותי גיוס</h3>
+                  <p className="text-muted-foreground">שיפור איכות ההחלטות על אנשים דרך כלים, מבנה ותהליכי עבודה ברורים</p>
                 </div>
               </div>
             </Card>
