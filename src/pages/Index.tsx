@@ -202,7 +202,7 @@ const Index = () => {
                 </div>
                 <div className="flex-1">
                   <h3 className="text-xl font-bold mb-2">שירותי איתור בכירים, גיוס והשמה</h3>
-                  <p className="text-muted-foreground">מציאת המועמדים המושלמים לארגון שלך</p>
+                  <p className="text-muted-foreground">איתור וגיוס בכירים תוך שמירה על סטנדרט קבלת החלטות גבוה, גם בתפקידים קריטיים לארגון</p>
                 </div>
               </div>
             </Card>
