@@ -151,10 +151,10 @@ const Index = () => {
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-l from-secondary to-accent bg-clip-text text-transparent">
-              מה אני עושה
+              מה אני עושה?
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-              חיבור בין אנשים, הזדמנויות ועסקים – מתוך הבנה עמוקה של שני הצדדים
+              אני עוזרת לארגונים לקבל החלטות טובות יותר על אנשים — באמצעות בניית מערכות גיוס מדויקות, מבוססות דאטה.
             </p>
           </div>
 
