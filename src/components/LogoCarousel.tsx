@@ -8,7 +8,7 @@ const logos = [
   { text: "Monday" },
   { text: "Intuit" },
   { text: "Checkpoint" },
-  { text: "Hello Heart" },
+  { text: "Groundcover" },
   { text: "Gilat" },
   { text: "Payoneer" },
   { text: "Varonis" },
