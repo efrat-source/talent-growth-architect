@@ -1,13 +1,11 @@
 import googleLogo from "@/assets/google-logo.png";
 import lyftLogo from "@/assets/lyft-logo.png";
 import nextInsuranceLogo from "@/assets/next-insurance-logo.png";
-import workaroundLogo from "@/assets/workaround-logo.png";
 
 const logos = [
   { src: googleLogo, alt: "Google" },
   { src: lyftLogo, alt: "Lyft" },
   { src: nextInsuranceLogo, alt: "Next Insurance" },
-  { src: workaroundLogo, alt: "Workaround" },
   { text: "Gong.io" },
   { text: "Lightricks" },
   { text: "Cloudinary" },
