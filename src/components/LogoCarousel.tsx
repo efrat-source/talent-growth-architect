@@ -24,7 +24,7 @@ const LogoCarousel = () => {
     <section className="py-12 bg-background border-b border-border/30">
       <div className="container mx-auto max-w-5xl px-6">
         <p className="text-center text-sm text-muted-foreground font-medium tracking-wide mb-8">
-          עובדת עם חברות מובילות בתעשייה
+          שותפה לחברות מובילות בבניית מערכות גיוס מדויקות
         </p>
         <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 gap-8 items-center justify-items-center">
           {logos.map((logo, i) => (
