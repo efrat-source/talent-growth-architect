@@ -6,14 +6,15 @@ const logos = [
   { src: googleLogo, alt: "Google" },
   { src: lyftLogo, alt: "Lyft" },
   { src: nextInsuranceLogo, alt: "Next Insurance" },
-  { text: "Gong.io", color: "hsl(270, 60%, 55%)" },
-  { text: "Lightricks", color: "hsl(340, 75%, 55%)" },
-  { text: "Cloudinary", color: "hsl(210, 70%, 50%)" },
-  { text: "Monday", color: "hsl(150, 65%, 40%)" },
-  { text: "Intuit", color: "hsl(160, 55%, 40%)" },
-  { text: "Checkpoint", color: "hsl(350, 70%, 50%)" },
-  { text: "Hello Heart", color: "hsl(0, 65%, 55%)" },
-  { text: "Gilat", color: "hsl(210, 60%, 45%)" },
+  { text: "Gong.io" },
+  { text: "Lightricks" },
+  { text: "Cloudinary" },
+  { text: "Monday" },
+  { text: "Intuit" },
+  { text: "Checkpoint" },
+  { text: "Hello Heart" },
+  { text: "Gilat" },
+  { text: "Payoneer" },
 ];
 
 const LogoCarousel = () => {
@@ -29,7 +30,7 @@ const LogoCarousel = () => {
               {'src' in logo ? (
                 <img src={logo.src} alt={logo.alt} className="h-8 object-contain" loading="lazy" />
               ) : (
-                <span className="text-base font-bold whitespace-nowrap" style={{ color: logo.color }}>{logo.text}</span>
+                <span className="text-base font-bold whitespace-nowrap text-foreground">{logo.text}</span>
               )}
             </div>
           ))}
