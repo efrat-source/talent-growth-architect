@@ -26,7 +26,7 @@ import workaroundLogo from "@/assets/workaround-logo.png";
 import blogDecisions from "@/assets/blog-decisions.jpg";
 import blogFit from "@/assets/blog-fit.jpg";
 import blogPartnership from "@/assets/blog-partnership.jpg";
-
+import LogoCarousel from "@/components/LogoCarousel";
 const Index = () => {
   // Detect if page is in iframe for embedding
   const isEmbedded = typeof window !== 'undefined' && window.self !== window.top;
@@ -147,6 +147,9 @@ const Index = () => {
           </div>
         </div>
       </section>
+
+      {/* Logo Carousel */}
+      <LogoCarousel />
 
       {/* Services Section */}
       <section className="py-20 px-6 bg-muted/30">
