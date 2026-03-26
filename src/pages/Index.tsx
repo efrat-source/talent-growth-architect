@@ -719,7 +719,7 @@ const Index = () => {
                 </p>
                 <div className="border-t pt-4">
                   <p className="font-bold text-foreground">מור בסון תורן</p>
-                  <p className="text-sm text-muted-foreground">⭐⭐⭐⭐⭐ ביקורת Google</p>
+                  <p className="text-sm text-muted-foreground">מנהלת גיוס, Intuit</p>
                 </div>
               </div>
             </Card>
