@@ -139,7 +139,7 @@ const Index = () => {
             </p>
             <Button variant="default" size="xl" className="font-semibold shadow-xl" asChild>
               <a href="https://wa.me/972555001909" target="_blank" rel="noopener noreferrer">
-                בואו נגייס יחד
+                קובעים שיחה
               </a>
             </Button>
           </div>
