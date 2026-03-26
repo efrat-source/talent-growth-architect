@@ -232,10 +232,16 @@ const Index = () => {
             <div className="order-2 md:order-1 text-center md:text-right">
               <h2 className="text-4xl md:text-5xl font-bold mb-6">הסיפור שלי</h2>
               <p className="text-lg text-muted-foreground leading-relaxed mb-6">
-                לא תמיד ידעתי שאעבוד בגיוס. למדתי פסיכולוגיה, והגעתי לתחום במקרה – אבל מהר מאוד הבנתי שמצאתי את המקום שלי.
+                בתחילת הקריירה שלי הייתה לי הזדמנות לקחת חלק בבניית נוכחות ה־R&D של Google בישראל, תוך גיוס מהנדסים ומובילים טכנולוגיים לצוות שצמח במהירות ופעל תחת ציפיות גבוהות במיוחד.
+              </p>
+              <p className="text-lg text-muted-foreground leading-relaxed mb-6">
+                מה שלמדתי באותן שנים הוא שגיוס בהיקפים גדולים כמעט אף פעם לא עוסק רק באיוש משרות — אלא בבניית מערכת שמגנה על איכות קבלת ההחלטות בזמן שהארגון נע מהר.
+              </p>
+              <p className="text-lg text-muted-foreground leading-relaxed mb-6">
+                כשכל גיוס באמת משנה, אינטואיציה בלבד לא מספיקה. צריך מבנה, מסגרות הערכה ברורות, ומנהלים שמבינים את התפקיד שלהם בתוך תהליך הגיוס.
               </p>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                גיוס הוא שילוב מדויק של סקרנות, הבנה אנושית וחשיבה עסקית – ואני זכיתי לגדול בו וללוות ארגונים מהשלב הראשון ועד צמיחה גלובלית.
+                החוויה הזו עיצבה את הדרך שבה אני חושבת על טאלנט עד היום: חברות מצוינות לא רק מגייסות טוב — הן בונות ארכיטקטורות לקבלת החלטות טובות יותר על אנשים.
               </p>
             </div>
             <div className="order-1 md:order-2 flex items-center justify-center">
