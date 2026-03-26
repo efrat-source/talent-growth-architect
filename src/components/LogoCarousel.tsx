@@ -11,6 +11,12 @@ const logos = [
   { text: "Hello Heart" },
   { text: "Gilat" },
   { text: "Payoneer" },
+  { text: "Varonis" },
+  { text: "Artlist" },
+  { text: "Playtika" },
+  { text: "Glassbox" },
+  { text: "Personetics" },
+  { text: "Nym" },
 ];
 
 const LogoCarousel = () => {
