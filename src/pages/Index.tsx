@@ -132,7 +132,7 @@ const Index = () => {
               גיוס הוא לא רק תהליך<br />הוא גם  החלטה
             </h1>
             <p className="text-xl md:text-2xl mb-4 text-muted-foreground leading-relaxed">
-              אנחנו עוזרים לארגונים לבנות גיוס מדויק, מבוסס דאטה, שמחזיק גם תחת לחץ וצמיחה מהירה.
+              אנחנו עוזרים לארגונים לבנות גיוס מדויק, מבוסס נתונים
             </p>
             <p className="text-lg md:text-xl mb-10 text-muted-foreground font-light">
               ייעוץ וליווי | אסטרטגיית גיוס | גיוס בכירים | קורסים והרצאות
