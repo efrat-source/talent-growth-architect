@@ -26,7 +26,7 @@ import workaroundLogo from "@/assets/workaround-logo.png";
 import blogDecisions from "@/assets/blog-decisions.jpg";
 import blogFit from "@/assets/blog-fit.jpg";
 import blogPartnership from "@/assets/blog-partnership.jpg";
-import LogoCarousel from "@/components/LogoCarousel";
+
 const Index = () => {
   // Detect if page is in iframe for embedding
   const isEmbedded = typeof window !== 'undefined' && window.self !== window.top;
@@ -129,29 +129,22 @@ const Index = () => {
         <div className="container mx-auto px-6 relative z-10">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight text-foreground">
-               גיוס הוא לא רק תהליך
-               <br />
-               הוא החלטה
-             </h1>
+              גיוס הוא לא רק תהליך - הוא החלטה.
+            </h1>
             <p className="text-xl md:text-2xl mb-4 text-muted-foreground leading-relaxed">
-               אנחנו עוזרים לארגונים לבנות גיוס מדויק מבוסס דאטה ובינה
-               <br />
-               מבלי לאבד את איכות קבלת ההחלטות.
+              אנחנו עוזרים לארגונים לבנות גיוס מדויק, מבוסס דאטה, שמחזיק גם תחת לחץ וצמיחה מהירה.
             </p>
             <p className="text-lg md:text-xl mb-10 text-muted-foreground font-light">
               ייעוץ וליווי | אסטרטגיית גיוס | גיוס בכירים | קורסים והרצאות
             </p>
             <Button variant="default" size="xl" className="font-semibold shadow-xl" asChild>
               <a href="https://wa.me/972555001909" target="_blank" rel="noopener noreferrer">
-                קובעים שיחה
+                בואו נגייס יחד
               </a>
             </Button>
           </div>
         </div>
       </section>
-
-      {/* Logo Carousel */}
-      <LogoCarousel />
 
       {/* Services Section */}
       <section className="py-20 px-6 bg-muted/30">
@@ -172,7 +165,7 @@ const Index = () => {
                   <Lightbulb className="w-6 h-6 text-accent" />
                 </div>
                 <div className="flex-1">
-                  <h3 className="text-xl font-bold mb-2">ייעוץ בנושאי גיוס ואסטרטגיית גיוס</h3>
+                  <h3 className="text-xl font-bold mb-2">חיזוק מנהלים וצוותי גיוס</h3>
                   <p className="text-muted-foreground">בניית אסטרטגיית גיוס שמחזיקה גם תחת צמיחה מהירה, ומייצרת החלטות עקביות, מדויקות ומבוססות דאטה</p>
                 </div>
               </div>
@@ -242,13 +235,13 @@ const Index = () => {
                 בתחילת הקריירה שלי הייתה לי הזדמנות לקחת חלק בבניית נוכחות ה־R&D של Google בישראל, תוך גיוס מהנדסים ומובילים טכנולוגיים לצוות שצמח במהירות ופעל תחת ציפיות גבוהות במיוחד.
               </p>
               <p className="text-lg text-muted-foreground leading-relaxed mb-6">
-                מה שלמדתי באותן שנים הוא שגיוס בהיקפים גדולים כמעט אף פעם לא עוסק רק באיוש משרות אלא בבניית מערכת שמגנה על איכות קבלת ההחלטות בזמן שהארגון נע מהר.
+                מה שלמדתי באותן שנים הוא שגיוס בהיקפים גדולים כמעט אף פעם לא עוסק רק באיוש משרות — אלא בבניית מערכת שמגנה על איכות קבלת ההחלטות בזמן שהארגון נע מהר.
               </p>
               <p className="text-lg text-muted-foreground leading-relaxed mb-6">
                 כשכל גיוס באמת משנה, אינטואיציה בלבד לא מספיקה. צריך מבנה, מסגרות הערכה ברורות, ומנהלים שמבינים את התפקיד שלהם בתוך תהליך הגיוס.
               </p>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                החוויה הזו עיצבה את הדרך שבה אני חושבת על טאלנט עד היום: חברות מצוינות לא רק מגייסות טוב הן בונות ארכיטקטורות לקבלת החלטות טובות יותר על אנשים.
+                החוויה הזו עיצבה את הדרך שבה אני חושבת על טאלנט עד היום: חברות מצוינות לא רק מגייסות טוב — הן בונות ארכיטקטורות לקבלת החלטות טובות יותר על אנשים.
               </p>
             </div>
             <div className="order-1 md:order-2 flex items-center justify-center">
@@ -330,7 +323,7 @@ const Index = () => {
 
           <div className="text-center mt-12 p-8 bg-gradient-to-l from-secondary/10 to-accent/10 rounded-2xl">
             <p className="text-2xl md:text-3xl font-light italic text-foreground leading-relaxed">
-              "איכות הגיוס נקבעת באיכות ההחלטות."
+              "הצלחת הארגון נקבעת באנשים שבוחרים להצטרף אליו – וזה מתחיל בגיוס נכון"
             </p>
           </div>
         </div>
