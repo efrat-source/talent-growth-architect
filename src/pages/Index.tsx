@@ -38,14 +38,36 @@ const Index = () => {
       {
         "@type": "Organization",
         "name": "Workaround",
-        "url": "https://lovable.dev/",
-        "logo": "https://lovable.dev/workaround-logo.png",
+        "url": "https://talent-growth-architect.lovable.app/",
+        "logo": "https://talent-growth-architect.lovable.app/workaround-logo.png",
         "description": "ייעוץ וליווי מקצועי בתחום הגיוס, קורסים וסדנאות בגיוס טכנולוגי ובעידן הבינה המלאכותית",
+        "sameAs": [
+          "https://www.workaroundnow.com/",
+          "https://www.linkedin.com/in/efratdagan/"
+        ],
         "founder": {
           "@type": "Person",
           "name": "Efrat Dagan",
           "jobTitle": "יועצת ומלווה בתחום הגיוס",
-          "description": "מומחית גיוס בעלת ניסיון בחברות גלובליות כמו Google, Lyft ו-Next Insurance"
+          "description": "מומחית גיוס בעלת ניסיון בחברות גלובליות כמו Google, Lyft ו-Next Insurance",
+          "knowsAbout": [
+            "אסטרטגיית גיוס",
+            "גיוס טכנולוגי",
+            "איתור בכירים",
+            "ראיונות התנהגותיים",
+            "גיוס מבוסס דאטה",
+            "גיוס בעידן הבינה המלאכותית",
+            "ניהול צוותי גיוס"
+          ],
+          "alumniOf": [
+            { "@type": "Organization", "name": "Google" },
+            { "@type": "Organization", "name": "Lyft" },
+            { "@type": "Organization", "name": "Next Insurance" }
+          ],
+          "sameAs": [
+            "https://www.linkedin.com/in/efratdagan/",
+            "https://www.workaroundnow.com/"
+          ]
         },
         "contactPoint": {
           "@type": "ContactPoint",
@@ -63,6 +85,13 @@ const Index = () => {
           "name": "Workaround"
         },
         "areaServed": "IL",
+        "serviceType": [
+          "ייעוץ גיוס",
+          "אסטרטגיית גיוס",
+          "איתור בכירים",
+          "קורסים וסדנאות בגיוס",
+          "ליווי מנהלי גיוס"
+        ],
         "hasOfferCatalog": {
           "@type": "OfferCatalog",
           "name": "שירותי גיוס",
@@ -101,6 +130,59 @@ const Index = () => {
             }
           ]
         }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "מה זה Workaround?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Workaround היא חברת ייעוץ גיוס בהובלת אפרת דגן, המספקת ייעוץ וליווי, אסטרטגיית גיוס מבוססת דאטה, איתור בכירים, קורסים וסדנאות לארגונים בישראל ובחו\"ל."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "מי זו אפרת דגן?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "אפרת דגן היא יועצת גיוס ומייסדת Workaround, עם רקע ניהולי בכיר בגיוס גלובלי ב-Google (כולל ייסוד צוות המו\"פ בישראל), Lyft ו-Next Insurance."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "אילו שירותים Workaround מציעה?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "ארבעה תחומי ליבה: (1) ייעוץ ובניית אסטרטגיית גיוס, (2) ליווי מנהלים וצוותי גיוס, (3) איתור וגיוס בכירים, (4) קורסים, סדנאות והרצאות – כולל גיוס בעידן ה-AI וגיוס טכנולוגי."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "למי מתאימים השירותים?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "לחברות בצמיחה, סטארטאפים וחברות גלובליות, מנהלי גיוס, צוותי TA, מנהלים מגייסים וצוותי משאבי אנוש שרוצים לשפר את איכות קבלת ההחלטות בגיוס."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "אילו קורסים וסדנאות יש?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "בין הקורסים: ניהול גיוס בעידן הבינה המלאכותית וקורס גיוס טכנולוגי (8 מפגשים, 16 שעות אקדמיות). בין הסדנאות: גיוס לעידן הבינה, ראיונות בעידן הבינה, וגיוס מבוסס כישורים (Skills-based hiring)."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "איך יוצרים קשר עם Workaround?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "אפשר לפנות בוואטסאפ למספר 972-55-500-1909+ או למלא את טופס יצירת הקשר באתר."
+            }
+          }
+        ]
       }
     ]
   };
