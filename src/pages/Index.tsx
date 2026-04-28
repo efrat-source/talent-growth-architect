@@ -230,6 +230,8 @@ const Index = () => {
 
       {/* Services Section */}
       <section className="py-20 px-6 bg-muted/30">
+        {/* TL;DR answer block (AEO – direct, citable answer) */}
+      </section>
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-l from-secondary to-accent bg-clip-text text-transparent">
