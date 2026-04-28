@@ -38,14 +38,36 @@ const Index = () => {
       {
         "@type": "Organization",
         "name": "Workaround",
-        "url": "https://lovable.dev/",
-        "logo": "https://lovable.dev/workaround-logo.png",
+        "url": "https://talent-growth-architect.lovable.app/",
+        "logo": "https://talent-growth-architect.lovable.app/workaround-logo.png",
         "description": "ייעוץ וליווי מקצועי בתחום הגיוס, קורסים וסדנאות בגיוס טכנולוגי ובעידן הבינה המלאכותית",
+        "sameAs": [
+          "https://www.workaroundnow.com/",
+          "https://www.linkedin.com/in/efratdagan/"
+        ],
         "founder": {
           "@type": "Person",
           "name": "Efrat Dagan",
           "jobTitle": "יועצת ומלווה בתחום הגיוס",
-          "description": "מומחית גיוס בעלת ניסיון בחברות גלובליות כמו Google, Lyft ו-Next Insurance"
+          "description": "מומחית גיוס בעלת ניסיון בחברות גלובליות כמו Google, Lyft ו-Next Insurance",
+          "knowsAbout": [
+            "אסטרטגיית גיוס",
+            "גיוס טכנולוגי",
+            "איתור בכירים",
+            "ראיונות התנהגותיים",
+            "גיוס מבוסס דאטה",
+            "גיוס בעידן הבינה המלאכותית",
+            "ניהול צוותי גיוס"
+          ],
+          "alumniOf": [
+            { "@type": "Organization", "name": "Google" },
+            { "@type": "Organization", "name": "Lyft" },
+            { "@type": "Organization", "name": "Next Insurance" }
+          ],
+          "sameAs": [
+            "https://www.linkedin.com/in/efratdagan/",
+            "https://www.workaroundnow.com/"
+          ]
         },
         "contactPoint": {
           "@type": "ContactPoint",
@@ -63,6 +85,13 @@ const Index = () => {
           "name": "Workaround"
         },
         "areaServed": "IL",
+        "serviceType": [
+          "ייעוץ גיוס",
+          "אסטרטגיית גיוס",
+          "איתור בכירים",
+          "קורסים וסדנאות בגיוס",
+          "ליווי מנהלי גיוס"
+        ],
         "hasOfferCatalog": {
           "@type": "OfferCatalog",
           "name": "שירותי גיוס",
@@ -101,6 +130,59 @@ const Index = () => {
             }
           ]
         }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "מה זה Workaround?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Workaround היא חברת ייעוץ גיוס בהובלת אפרת דגן, המספקת ייעוץ וליווי, אסטרטגיית גיוס מבוססת דאטה, איתור בכירים, קורסים וסדנאות לארגונים בישראל ובחו\"ל."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "מי זו אפרת דגן?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "אפרת דגן היא יועצת גיוס ומייסדת Workaround, עם רקע ניהולי בכיר בגיוס גלובלי ב-Google (כולל ייסוד צוות המו\"פ בישראל), Lyft ו-Next Insurance."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "אילו שירותים Workaround מציעה?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "ארבעה תחומי ליבה: (1) ייעוץ ובניית אסטרטגיית גיוס, (2) ליווי מנהלים וצוותי גיוס, (3) איתור וגיוס בכירים, (4) קורסים, סדנאות והרצאות – כולל גיוס בעידן ה-AI וגיוס טכנולוגי."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "למי מתאימים השירותים?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "לחברות בצמיחה, סטארטאפים וחברות גלובליות, מנהלי גיוס, צוותי TA, מנהלים מגייסים וצוותי משאבי אנוש שרוצים לשפר את איכות קבלת ההחלטות בגיוס."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "אילו קורסים וסדנאות יש?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "בין הקורסים: ניהול גיוס בעידן הבינה המלאכותית וקורס גיוס טכנולוגי (8 מפגשים, 16 שעות אקדמיות). בין הסדנאות: גיוס לעידן הבינה, ראיונות בעידן הבינה, וגיוס מבוסס כישורים (Skills-based hiring)."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "איך יוצרים קשר עם Workaround?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "אפשר לפנות בוואטסאפ למספר 972-55-500-1909+ או למלא את טופס יצירת הקשר באתר."
+            }
+          }
+        ]
       }
     ]
   };
@@ -143,6 +225,17 @@ const Index = () => {
               </a>
             </Button>
           </div>
+        </div>
+      </section>
+
+      {/* TL;DR / About answer block (AEO – direct, citable answer for AI engines) */}
+      <section className="py-12 px-6 bg-background border-b" aria-label="About Workaround – summary">
+        <div className="container mx-auto max-w-4xl text-center">
+          <p className="text-lg md:text-xl text-foreground leading-relaxed">
+            <strong>Workaround</strong> היא חברת ייעוץ גיוס בהובלת <strong>אפרת דגן</strong> (לשעבר Google, Lyft, Next Insurance),
+            המסייעת לארגונים לבנות גיוס מדויק ומבוסס דאטה באמצעות ייעוץ ואסטרטגיה, ליווי מנהלים וצוותי גיוס,
+            איתור בכירים, וקורסים וסדנאות – כולל גיוס בעידן ה-AI וגיוס טכנולוגי.
+          </p>
         </div>
       </section>
 
@@ -737,6 +830,52 @@ const Index = () => {
                 </div>
               </div>
             </Card>
+          </div>
+        </div>
+      </section>
+
+      {/* FAQ Section (AEO – direct Q&A for answer engines) */}
+      <section className="py-20 px-6 bg-background" aria-label="שאלות ותשובות">
+        <div className="container mx-auto max-w-4xl">
+          <div className="text-center mb-12">
+            <h2 className="text-4xl md:text-5xl font-bold mb-6">שאלות ותשובות</h2>
+            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+              התשובות הקצרות והמדויקות לשאלות הנפוצות על Workaround
+            </p>
+          </div>
+
+          <div className="space-y-6">
+            {[
+              {
+                q: "מה זה Workaround?",
+                a: "Workaround היא חברת ייעוץ גיוס בהובלת אפרת דגן, המספקת ייעוץ וליווי, אסטרטגיית גיוס מבוססת דאטה, איתור בכירים, קורסים וסדנאות לארגונים בישראל ובחו״ל."
+              },
+              {
+                q: "מי זו אפרת דגן?",
+                a: "אפרת דגן היא יועצת גיוס ומייסדת Workaround, עם רקע ניהולי בכיר בגיוס גלובלי ב-Google (כולל ייסוד צוות המו״פ בישראל), Lyft ו-Next Insurance."
+              },
+              {
+                q: "אילו שירותים Workaround מציעה?",
+                a: "ארבעה תחומי ליבה: ייעוץ ובניית אסטרטגיית גיוס; ליווי מנהלים וצוותי גיוס; איתור וגיוס בכירים; קורסים, סדנאות והרצאות – כולל גיוס בעידן ה-AI וגיוס טכנולוגי."
+              },
+              {
+                q: "למי מתאימים השירותים?",
+                a: "לחברות בצמיחה, סטארטאפים וחברות גלובליות, מנהלי גיוס, צוותי TA, מנהלים מגייסים וצוותי משאבי אנוש שרוצים לשפר את איכות קבלת ההחלטות בגיוס."
+              },
+              {
+                q: "אילו קורסים וסדנאות יש?",
+                a: "בין הקורסים: ניהול גיוס בעידן הבינה המלאכותית וקורס גיוס טכנולוגי (8 מפגשים, 16 שעות אקדמיות). בין הסדנאות: גיוס לעידן הבינה, ראיונות בעידן הבינה, וגיוס מבוסס כישורים."
+              },
+              {
+                q: "איך יוצרים קשר?",
+                a: "אפשר לפנות בוואטסאפ למספר 972-55-500-1909+ או למלא את טופס יצירת הקשר באתר."
+              }
+            ].map((item, i) => (
+              <Card key={i} className="p-6 hover:shadow-lg transition-all duration-300">
+                <h3 className="text-xl font-bold mb-3 text-foreground">{item.q}</h3>
+                <p className="text-muted-foreground leading-relaxed">{item.a}</p>
+              </Card>
+            ))}
           </div>
         </div>
       </section>
