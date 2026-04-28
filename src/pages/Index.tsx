@@ -228,10 +228,19 @@ const Index = () => {
         </div>
       </section>
 
+      {/* TL;DR / About answer block (AEO – direct, citable answer for AI engines) */}
+      <section className="py-12 px-6 bg-background border-b" aria-label="About Workaround – summary">
+        <div className="container mx-auto max-w-4xl text-center">
+          <p className="text-lg md:text-xl text-foreground leading-relaxed">
+            <strong>Workaround</strong> היא חברת ייעוץ גיוס בהובלת <strong>אפרת דגן</strong> (לשעבר Google, Lyft, Next Insurance),
+            המסייעת לארגונים לבנות גיוס מדויק ומבוסס דאטה באמצעות ייעוץ ואסטרטגיה, ליווי מנהלים וצוותי גיוס,
+            איתור בכירים, וקורסים וסדנאות – כולל גיוס בעידן ה-AI וגיוס טכנולוגי.
+          </p>
+        </div>
+      </section>
+
       {/* Services Section */}
       <section className="py-20 px-6 bg-muted/30">
-        {/* TL;DR answer block (AEO – direct, citable answer) */}
-      </section>
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-l from-secondary to-accent bg-clip-text text-transparent">
