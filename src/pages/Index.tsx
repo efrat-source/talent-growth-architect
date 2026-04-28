@@ -834,6 +834,52 @@ const Index = () => {
         </div>
       </section>
 
+      {/* FAQ Section (AEO – direct Q&A for answer engines) */}
+      <section className="py-20 px-6 bg-background" aria-label="שאלות ותשובות">
+        <div className="container mx-auto max-w-4xl">
+          <div className="text-center mb-12">
+            <h2 className="text-4xl md:text-5xl font-bold mb-6">שאלות ותשובות</h2>
+            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+              התשובות הקצרות והמדויקות לשאלות הנפוצות על Workaround
+            </p>
+          </div>
+
+          <div className="space-y-6">
+            {[
+              {
+                q: "מה זה Workaround?",
+                a: "Workaround היא חברת ייעוץ גיוס בהובלת אפרת דגן, המספקת ייעוץ וליווי, אסטרטגיית גיוס מבוססת דאטה, איתור בכירים, קורסים וסדנאות לארגונים בישראל ובחו״ל."
+              },
+              {
+                q: "מי זו אפרת דגן?",
+                a: "אפרת דגן היא יועצת גיוס ומייסדת Workaround, עם רקע ניהולי בכיר בגיוס גלובלי ב-Google (כולל ייסוד צוות המו״פ בישראל), Lyft ו-Next Insurance."
+              },
+              {
+                q: "אילו שירותים Workaround מציעה?",
+                a: "ארבעה תחומי ליבה: ייעוץ ובניית אסטרטגיית גיוס; ליווי מנהלים וצוותי גיוס; איתור וגיוס בכירים; קורסים, סדנאות והרצאות – כולל גיוס בעידן ה-AI וגיוס טכנולוגי."
+              },
+              {
+                q: "למי מתאימים השירותים?",
+                a: "לחברות בצמיחה, סטארטאפים וחברות גלובליות, מנהלי גיוס, צוותי TA, מנהלים מגייסים וצוותי משאבי אנוש שרוצים לשפר את איכות קבלת ההחלטות בגיוס."
+              },
+              {
+                q: "אילו קורסים וסדנאות יש?",
+                a: "בין הקורסים: ניהול גיוס בעידן הבינה המלאכותית וקורס גיוס טכנולוגי (8 מפגשים, 16 שעות אקדמיות). בין הסדנאות: גיוס לעידן הבינה, ראיונות בעידן הבינה, וגיוס מבוסס כישורים."
+              },
+              {
+                q: "איך יוצרים קשר?",
+                a: "אפשר לפנות בוואטסאפ למספר 972-55-500-1909+ או למלא את טופס יצירת הקשר באתר."
+              }
+            ].map((item, i) => (
+              <Card key={i} className="p-6 hover:shadow-lg transition-all duration-300">
+                <h3 className="text-xl font-bold mb-3 text-foreground">{item.q}</h3>
+                <p className="text-muted-foreground leading-relaxed">{item.a}</p>
+              </Card>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* Contact Form Section */}
       <section id="contact" className="py-20 px-6 bg-muted/30">
         <div className="container mx-auto max-w-4xl">
