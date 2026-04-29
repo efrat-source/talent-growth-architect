@@ -211,7 +211,7 @@ const Index = () => {
         <div className="container mx-auto px-6 relative z-10">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight text-foreground">
-              גיוס הוא לא רק תהליך<br />הוא גם  החלטה
+              מגיוס לאסטרטגית צמיחה מדידה
             </h1>
             <p className="text-xl md:text-2xl mb-4 text-muted-foreground leading-relaxed">
               אנחנו עוזרים לארגונים לבנות גיוס מדויק, מבוסס נתונים
